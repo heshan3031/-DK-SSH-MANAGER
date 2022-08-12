@@ -1288,8 +1288,11 @@ exit 0' >$RCLOCAL
 		echo ""
 		echo -e "\033[1;31m[\033[1;36m1\033[1;31m] \033[1;37m• \033[1;33mSOCKS SSH $var_sks1 \033[0m"
 		echo -e "\033[1;31m[\033[1;36m2\033[1;31m] \033[1;37m• \033[1;33mSOCKS OEPNVPN $sksop \033[0m"
+                echo -e "${cor[4]} [3] > \033[1;36m$(fun_trans  "Socks Python DIRECTO") $P3"
 		echo -e "\033[1;31m[\033[1;36m3\033[1;31m] \033[1;37m• \033[1;33mABRIR PORTA\033[0m"
 		echo -e "\033[1;31m[\033[1;36m4\033[1;31m] \033[1;37m• \033[1;33mALTERAR STATUS\033[0m"
+                echo -e "\033[1;31m[\033[1;36m0\033[1;31m] \033[1;37m• \033[1;33mPyDirect\033[0m"
+
 		echo -e "\033[1;31m[\033[1;36m0\033[1;31m] \033[1;37m• \033[1;33mVOLTAR\033[0m"
 
 
@@ -1336,10 +1339,7 @@ exit 0' >$RCLOCAL
 
 
 
-#!/bin/bash
-#19/05/2020
-clear
-clear
+
 msg -bar
 declare -A cor=( [0]="\033[1;37m" [1]="\033[1;34m" [2]="\033[1;31m" [3]="\033[1;33m" [4]="\033[1;32m" )
 SCPfrm="/etc/ger-frm" && [[ ! -d ${SCPfrm} ]] && exit

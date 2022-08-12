@@ -207,7 +207,7 @@ fun_adduser() {
     }
     [[ "${callback_query_from_id[$id]}" == "$id_admin" ]] || [[ "$(grep -wc ${callback_query_from_username} $ativos)" != '0' ]] && {
         ShellBot.sendMessage --chat_id ${callback_query_message_chat_id[$id]} \
-            --text "👤 CREAR USER 👤\n\nUsername:" \
+            --text "👤 CREATE USER 👤\n\nUsername:" \
             --reply_markup "$(ShellBot.ForceReply)"
     } || {
         ShellBot.answerCallbackQuery --callback_query_id ${callback_query_id[$id]} \
@@ -933,7 +933,7 @@ fun_add_teste() {
         return 0
     elif [[ "${callback_query_from_id[$id]}" == "$id_admin" ]]; then
         ShellBot.sendMessage --chat_id ${callback_query_message_chat_id[$id]} \
-            --text "👤 CREAR DEMO 👤\n\nHow many hours should EX last: 1:" \
+            --text "👤 CREATE TEST 👤\n\nHow many hours should EX last: 1:" \
             --reply_markup "$(ShellBot.ForceReply)"
     elif [[ "$(grep -wc ${callback_query_from_username} $ativos)" != '0' ]]; then
         _limTotal=$(grep -w "${callback_query_from_username}" $ativos | awk '{print $4}')
@@ -945,7 +945,7 @@ fun_add_teste() {
             return 0
         } || {
             ShellBot.sendMessage --chat_id ${callback_query_message_chat_id[$id]} \
-                --text "👤 CREATE DEMO 👤\n\nHow many hours should EX last: 1:" \
+                --text "👤 CREATE TEST 👤\n\nHow many hours should EX last: 1:" \
                 --reply_markup "$(ShellBot.ForceReply)"
         }
     else
@@ -1099,7 +1099,7 @@ relatorio_rev() {
         msg+="<b>ID:</b> <code>${callback_query_from_id}</code>\n"
         [[ $_cont_revt != '0' ]] && {
             ShellBot.answerCallbackQuery --callback_query_id ${callback_query_id[$id]} \
-                --text "📊CREATING REPORT!"
+                --text "📊CREANDO REPORTE!"
         } || {
             ShellBot.answerCallbackQuery --callback_query_id ${callback_query_id[$id]} \
                 --text "⚠️NO RESELLER FOUND!"
@@ -1286,7 +1286,7 @@ restaure_backup() {
 }
 msg_bem_vindo() {
     local msg
-    msg="✌️හායි බොක්ක😊<b>${message_from_first_name[$id]}</b>\n\n ✅WELCOME DATAKINGDOM SSH MANASGER BOT✅\n\n"
+    msg="✌️හායි බොක්ක😊<b>${message_from_first_name[$id]}</b>\n\n ✅ BIENVENIDO AL BOT✅\n\n"
     msg+="🔐To access the menu\n   click This ➡️[ /menu ]\n\n"
     msg+="⚙️Bot Control Commands\n click This ➡️[ /help ]\n\n"
     ShellBot.sendMessage --chat_id ${message_chat_id[$id]} \
@@ -1545,7 +1545,7 @@ fun_dat_rev() {
     }
     [[ "${callback_query_from_id[$id]}" == "$id_admin" ]] || [[ "$(grep -wc ${callback_query_from_username} $ativos)" != '0' ]] && {
         ShellBot.sendMessage --chat_id ${callback_query_message_chat_id[$id]} \
-            --text "📆 CHANGE RESALE DATE 📆\n\nInform his user [Ex:@Dk_king_offcial]:" \
+            --text "📆 CAMBIAR RESALE FECHA 📆\n\nInform his user [Ex:@Dk_king_offcial]:" \
             --reply_markup "$(ShellBot.ForceReply)"
     } || {
         ShellBot.answerCallbackQuery --callback_query_id ${callback_query_id[$id]} \
@@ -1770,24 +1770,24 @@ fun_menurevenda() {
 # LISTA MENU ADMIN
 unset menu1
 menu1=''
-ShellBot.InlineKeyboardButton --button 'menu1' --line 1 --text 'CREATE USER' --callback_data '_criaruser'
-ShellBot.InlineKeyboardButton --button 'menu1' --line 2 --text 'CREATE TEST' --callback_data '_criarteste'
-ShellBot.InlineKeyboardButton --button 'menu1' --line 3 --text 'REMOVER' --callback_data '_deluser'
-ShellBot.InlineKeyboardButton --button 'menu1' --line 4 --text 'CHANGE PASSWORD' --callback_data '_altsenha'
-ShellBot.InlineKeyboardButton --button 'menu1' --line 5 --text 'CHANGE LIMIT' --callback_data '_altlimite'
-ShellBot.InlineKeyboardButton --button 'menu1' --line 6 --text 'CHANGE DATE' --callback_data '_altdata'
+ShellBot.InlineKeyboardButton --button 'menu1' --line 1 --text 'CREAR USER' --callback_data '_criaruser'
+ShellBot.InlineKeyboardButton --button 'menu1' --line 2 --text 'CREAR DEMO' --callback_data '_criarteste'
+ShellBot.InlineKeyboardButton --button 'menu1' --line 3 --text 'ELIMINAR' --callback_data '_deluser'
+ShellBot.InlineKeyboardButton --button 'menu1' --line 4 --text 'CAMBIAR PASSWORD' --callback_data '_altsenha'
+ShellBot.InlineKeyboardButton --button 'menu1' --line 5 --text 'CAMBIAR LIMITE' --callback_data '_altlimite'
+ShellBot.InlineKeyboardButton --button 'menu1' --line 6 --text 'CAMBIAR FECHA' --callback_data '_altdata'
 ShellBot.InlineKeyboardButton --button 'menu1' --line 7 --text 'ONLINE USERS' --callback_data '_monitor'
 ShellBot.InlineKeyboardButton --button 'menu1' --line 8 --text 'USER INFO' --callback_data '_verusers'
-ShellBot.InlineKeyboardButton --button 'menu1' --line 9 --text 'EXPIRED' --callback_data '_expirados'
+ShellBot.InlineKeyboardButton --button 'menu1' --line 9 --text 'EXPIRADOS' --callback_data '_expirados'
 ShellBot.InlineKeyboardButton --button 'menu1' --line 1 --text 'INFO VPS' --callback_data '_infovps'
-ShellBot.InlineKeyboardButton --button 'menu1' --line 2 --text 'OTIMIZAR' --callback_data '_otimizar'
+ShellBot.InlineKeyboardButton --button 'menu1' --line 2 --text 'OPTIMIZAR' --callback_data '_otimizar'
 ShellBot.InlineKeyboardButton --button 'menu1' --line 3 --text 'FILES' --callback_data '_arqdown'
 ShellBot.InlineKeyboardButton --button 'menu1' --line 4 --text 'RESALE' --callback_data '_opcoesrev'
 ShellBot.InlineKeyboardButton --button 'menu1' --line 5 --text 'SPEEDTESTE' --callback_data '_speedteste'
 ShellBot.InlineKeyboardButton --button 'menu1' --line 6 --text 'USERS BACKUP' --callback_data '_backupusers'
 ShellBot.InlineKeyboardButton --button 'menu1' --line 7 --text "HIGH BACKUP" --callback_data '_autobkp'
-ShellBot.InlineKeyboardButton --button 'menu1' --line 8 --text 'REPORT' --callback_data '_relatorio'
-ShellBot.InlineKeyboardButton --button 'menu1' --line 9 --text 'HELP' --callback_data '_ajuda'
+ShellBot.InlineKeyboardButton --button 'menu1' --line 8 --text 'REPORTE' --callback_data '_relatorio'
+ShellBot.InlineKeyboardButton --button 'menu1' --line 9 --text 'AYUDA' --callback_data '_ajuda'
 ShellBot.regHandleFunction --function fun_adduser --callback_data _criaruser
 ShellBot.regHandleFunction --function fun_add_teste --callback_data _criarteste
 ShellBot.regHandleFunction --function fun_deluser --callback_data _deluser
@@ -1812,18 +1812,18 @@ keyboard1="$(ShellBot.InlineKeyboardMarkup -b 'menu1')"
 # LISTA MENU REVENDEDOR
 unset menu2
 menu2=''
-ShellBot.InlineKeyboardButton --button 'menu2' --line 1 --text 'CREATE USER' --callback_data '_criaruser2'
-ShellBot.InlineKeyboardButton --button 'menu2' --line 1 --text 'CREATE TEST' --callback_data '_criarteste2'
-ShellBot.InlineKeyboardButton --button 'menu2' --line 2 --text 'TO REMOVE' --callback_data '_deluser2'
+ShellBot.InlineKeyboardButton --button 'menu2' --line 1 --text 'CREAR USER' --callback_data '_criaruser2'
+ShellBot.InlineKeyboardButton --button 'menu2' --line 1 --text 'CREAR DEMO' --callback_data '_criarteste2'
+ShellBot.InlineKeyboardButton --button 'menu2' --line 2 --text 'ELIMINAR' --callback_data '_deluser2'
 ShellBot.InlineKeyboardButton --button 'menu2' --line 2 --text 'ONLINE USERS' --callback_data '_monitor2'
-ShellBot.InlineKeyboardButton --button 'menu2' --line 3 --text 'CHANGE LIMIT' --callback_data '_altlimite2'
+ShellBot.InlineKeyboardButton --button 'menu2' --line 3 --text 'CAMBIAR LIMIT' --callback_data '_altlimite2'
 ShellBot.InlineKeyboardButton --button 'menu2' --line 3 --text 'USER INFO' --callback_data '_verusers2'
-ShellBot.InlineKeyboardButton --button 'menu2' --line 4 --text 'CHANGE PASSWORD' --callback_data '_altsenha2'
-ShellBot.InlineKeyboardButton --button 'menu2' --line 4 --text 'EXPIRED' --callback_data '_expirados2'
-ShellBot.InlineKeyboardButton --button 'menu2' --line 5 --text 'CHANGE DATE' --callback_data '_altdata2'
+ShellBot.InlineKeyboardButton --button 'menu2' --line 4 --text 'CAMBIAR PASSWORD' --callback_data '_altsenha2'
+ShellBot.InlineKeyboardButton --button 'menu2' --line 4 --text 'EXPIRADOS' --callback_data '_expirados2'
+ShellBot.InlineKeyboardButton --button 'menu2' --line 5 --text 'CAMBIAR DATE' --callback_data '_altdata2'
 ShellBot.InlineKeyboardButton --button 'menu2' --line 5 --text 'RESALE' --callback_data '_opcoesrev2'
-ShellBot.InlineKeyboardButton --button 'menu2' --line 6 --text 'REPORT' --callback_data '_relatorio2'
-ShellBot.InlineKeyboardButton --button 'menu2' --line 6 --text 'HELP' --callback_data '_ajuda2'
+ShellBot.InlineKeyboardButton --button 'menu2' --line 6 --text 'REPORTE' --callback_data '_relatorio2'
+ShellBot.InlineKeyboardButton --button 'menu2' --line 6 --text 'AYUDA' --callback_data '_ajuda2'
 ShellBot.regHandleFunction --function fun_adduser --callback_data _criaruser2
 ShellBot.regHandleFunction --function fun_add_teste --callback_data _criarteste2
 ShellBot.regHandleFunction --function fun_deluser --callback_data _deluser2
@@ -1842,16 +1842,16 @@ keyboard2="$(ShellBot.InlineKeyboardMarkup -b 'menu2')"
 #LISTA MUNU SUB REVENDEDOR
 unset menu3
 menu3=''
-ShellBot.InlineKeyboardButton --button 'menu3' --line 1 --text 'CREATE USER' --callback_data '_criaruser3'
-ShellBot.InlineKeyboardButton --button 'menu3' --line 1 --text 'CREATE TEST' --callback_data '_criarteste3'
-ShellBot.InlineKeyboardButton --button 'menu3' --line 2 --text 'TO REMOVE' --callback_data '_deluser3'
+ShellBot.InlineKeyboardButton --button 'menu3' --line 1 --text 'CREAR USER' --callback_data '_criaruser3'
+ShellBot.InlineKeyboardButton --button 'menu3' --line 1 --text 'CREAR TEST' --callback_data '_criarteste3'
+ShellBot.InlineKeyboardButton --button 'menu3' --line 2 --text 'ELIMINAF' --callback_data '_deluser3'
 ShellBot.InlineKeyboardButton --button 'menu3' --line 2 --text 'ONLINE USERS' --callback_data '_monitor3'
-ShellBot.InlineKeyboardButton --button 'menu3' --line 3 --text 'CHANGE LIMIT' --callback_data '_altlimite3'
+ShellBot.InlineKeyboardButton --button 'menu3' --line 3 --text 'CAMBIAR LIMIT' --callback_data '_altlimite3'
 ShellBot.InlineKeyboardButton --button 'menu3' --line 3 --text 'USER INFO' --callback_data '_verusers3'
-ShellBot.InlineKeyboardButton --button 'menu3' --line 4 --text 'CHANGE PASSWORD' --callback_data '_altsenha3'
-ShellBot.InlineKeyboardButton --button 'menu3' --line 4 --text 'EXPIRED' --callback_data '_expirados3'
-ShellBot.InlineKeyboardButton --button 'menu3' --line 5 --text 'CHANGE DATE' --callback_data '_altdata3'
-ShellBot.InlineKeyboardButton --button 'menu3' --line 5 --text 'HELP' --callback_data '_ajuda3'
+ShellBot.InlineKeyboardButton --button 'menu3' --line 4 --text 'CAMBIAR PASSWORD' --callback_data '_altsenha3'
+ShellBot.InlineKeyboardButton --button 'menu3' --line 4 --text 'EXPIRADOS' --callback_data '_expirados3'
+ShellBot.InlineKeyboardButton --button 'menu3' --line 5 --text 'CAMBIAR DATE' --callback_data '_altdata3'
+ShellBot.InlineKeyboardButton --button 'menu3' --line 5 --text 'AYUDA' --callback_data '_ajuda3'
 ShellBot.regHandleFunction --function fun_adduser --callback_data _criaruser3
 ShellBot.regHandleFunction --function fun_add_teste --callback_data _criarteste3
 ShellBot.regHandleFunction --function fun_deluser --callback_data _deluser3
@@ -1868,12 +1868,12 @@ keyboard3="$(ShellBot.InlineKeyboardMarkup -b 'menu3')"
 #LISTA MENU OPCOES REVENDA
 unset menu4
 menu4=''
-ShellBot.InlineKeyboardButton --button 'menu4' --line 1 --text 'ADD RESALE' --callback_data '_addrev'
-ShellBot.InlineKeyboardButton --button 'menu4' --line 2 --text 'REMOVE RESALE' --callback_data '_delrev'
-ShellBot.InlineKeyboardButton --button 'menu4' --line 3 --text 'CHANGE RESALE LIMIT' --callback_data '_limrev'
-ShellBot.InlineKeyboardButton --button 'menu4' --line 4 --text 'CHANGE RESALE DATE' --callback_data '_datrev'
-ShellBot.InlineKeyboardButton --button 'menu4' --line 5 --text 'LIST RESALE' --callback_data '_listrev'
-ShellBot.InlineKeyboardButton --button 'menu4' --line 6 --text 'SUSPEND RESALE' --callback_data '_susprevendas'
+ShellBot.InlineKeyboardButton --button 'menu4' --line 1 --text 'AÑADIR RESALE' --callback_data '_addrev'
+ShellBot.InlineKeyboardButton --button 'menu4' --line 2 --text 'ELIMINAR' RESALE' --callback_data '_delrev'
+ShellBot.InlineKeyboardButton --button 'menu4' --line 3 --text 'CAMBIAR RESALE LIMIT' --callback_data '_limrev'
+ShellBot.InlineKeyboardButton --button 'menu4' --line 4 --text 'CAMBIAR RESALE DATE' --callback_data '_datrev'
+ShellBot.InlineKeyboardButton --button 'menu4' --line 5 --text 'LISTA RESALE' --callback_data '_listrev'
+ShellBot.InlineKeyboardButton --button 'menu4' --line 6 --text 'SUSPENDER RESALE' --callback_data '_susprevendas'
 ShellBot.regHandleFunction --function fun_add_revenda --callback_data _addrev
 ShellBot.regHandleFunction --function fun_del_rev --callback_data _delrev
 ShellBot.regHandleFunction --function fun_lim_rev --callback_data _limrev
@@ -2028,7 +2028,7 @@ while :; do
                             --reply_markup "$(ShellBot.ForceReply)"
                     } || {
                         ShellBot.sendMessage --chat_id ${message_from_id[$id]} \
-                            --text "<b>✅ SUCCESSFULLY CREATED ✅</b>\n\n♻️ DATAKINGDOM PAID PRIVATE SSH ♻️\n\n🔥⚡️⚡️ CONFIG BY DATAKINGDOM ⚡️⚡️🔥\n======================\n=❌NO SPAM\n=❌NO DDOS\n=❌NO HACKING\n=❌NO CARDING\n=❌NO TORRENT\n=❌NO OVER DOWNLOAD\n=❌NO MULTILOGIN\n=======================\n\n\nᗚ IP • ๛ $(cat /etc/IP)\nᗚ Username • ๛ <code>$(awk -F " " '/Nome/ {print $2}' $CAD_ARQ)</code>\nᗚ Password • ๛ <code>$(awk -F " " '/Senha/ {print $2}' $CAD_ARQ)</code>\nᗚ Limit • $(awk -F " " '/Limite/ {print $2}' $CAD_ARQ)\nᗚ Expire • $(awk -F " " '/Validade/ {print $2}' $CAD_ARQ)\n\n࿂ SSH •  22\n࿂ SSL •  443\n࿂ Squid  •  8080\n࿂ Dropbear •  80\n[-] ═───────◇───────═\n࿂ Badvpn •  7300\n [-] ═───────◇───────═\n›☬[•] SCRIPTS ═◇ ⚡️⚡️ BY DATAKINGDOM ⚡️⚡ ◇═ [•]☬" \
+                            --text "<b>✅ CREADO EXITOSAMENTE ✅\n\n♻️ ☬ Reseller: DansBot ♻️\n\n🔥⚡️⚡️ CONFIG BY DANS TEAM ⚡️⚡️🔥\n======================\n=❌NO SPAM\n=❌NO DDOS\n=❌NO HACKING\n=❌NO CARDING\n=❌NO TORRENT\n=❌NO OVER DOWNLOAD\n=❌NO MULTILOGIN\n=======================\n\n\nᗚ IP • ๛ $(cat /etc/IP)\nᗚ Username • ๛ <code>$(awk -F " " '/Nome/ {print $2}' $CAD_ARQ)</code>\nᗚ Password • ๛ <code>$(awk -F " " '/Senha/ {print $2}' $CAD_ARQ)</code>\nᗚ Limit • $(awk -F " " '/Limite/ {print $2}' $CAD_ARQ)\nᗚ Expire • $(awk -F " " '/Validade/ {print $2}' $CAD_ARQ)\n\n࿂ SSH •  22\n࿂ SSL •  443\n࿂ Squid  •  8080\n࿂ Dropbear •  80\n[-] ═───────◇───────═\n࿂ Badvpn •  7300\n [-] ═───────◇───────═\n›☬[•] SCRIPTS ═◇ ⚡️⚡️ BY DATAKINGDOM ⚡️⚡ ◇═ [•]☬" \
                             --parse_mode html
                         break
                     }
@@ -2041,7 +2041,7 @@ while :; do
                             --text "$(echo -e "❌ Invalid option ❌\n\n⚠️ Use only letters [EX:mr yash]")" \
                             --parse_mode html
                         ShellBot.sendMessage --chat_id ${message_from_id[$id]} \
-                            --text "<b>✅ SUCCESSFULLY CREATED ✅</b>\n\n♻️ DATAKINGDOM PAID PRIVATE SSH ♻️\n\n🔥⚡️⚡️ CONFIG BY DATAKINGDOM TEAM ⚡️⚡🔥\n======================\n=❌NO SPAM\n=❌NO DDOS\n=❌NO HACKING\n=❌NO CARDING\n=❌NO TORRENT\n=❌NO OVER DOWNLOAD\n=❌NO MULTILOGIN\n=======================\n\n\nᗚ IP • ๛ $(cat /etc/IP)\nᗚ Username • ๛ <code>$(awk -F " " '/Nome/ {print $2}' $CAD_ARQ)</code>\nᗚ Password • ๛ <code>$(awk -F " " '/Senha/ {print $2}' $CAD_ARQ)</code>\nᗚ Limit • $(awk -F " " '/Limite/ {print $2}' $CAD_ARQ)\nᗚ Expire • $(awk -F " " '/Validade/ {print $2}' $CAD_ARQ)\n\n࿂ SSH •  22\n࿂ SSL •  443\n࿂ Squid  •  8080\n࿂ Dropbear •  80\n[-] ═───────◇───────═\n࿂ Badvpn •  7300\n [-] ═───────◇───────═\n›☬[•] SCRIPTS ═◇⚡️⚡️ BY DATAKINGDOM ⚡️⚡ ◇═ [•]☬" \
+                            --text "<b>✅ CREADO EXITOSAMENTE ✅\n\n♻️ ☬ Reseller: DansBot ♻️\n\n🔥⚡️⚡️ CONFIG BY DANS TEAM ⚡️⚡🔥\n======================\n=❌NO SPAM\n=❌NO DDOS\n=❌NO HACKING\n=❌NO CARDING\n=❌NO TORRENT\n=❌NO OVER DOWNLOAD\n=❌NO MULTILOGIN\n=======================\n\n\nᗚ IP • ๛ $(cat /etc/IP)\nᗚ Username • ๛ <code>$(awk -F " " '/Nome/ {print $2}' $CAD_ARQ)</code>\nᗚ Password • ๛ <code>$(awk -F " " '/Senha/ {print $2}' $CAD_ARQ)</code>\nᗚ Limit • $(awk -F " " '/Limite/ {print $2}' $CAD_ARQ)\nᗚ Expire • $(awk -F " " '/Validade/ {print $2}' $CAD_ARQ)\n\n࿂ SSH •  22\n࿂ SSL •  443\n࿂ Squid  •  8080\n࿂ Dropbear •  80\n[-] ═───────◇───────═\n࿂ Badvpn •  7300\n [-] ═───────◇───────═\n›☬[•] SCRIPTS ═◇⚡️⚡️ BY DATAKINGDOM ⚡️⚡ ◇═ [•]☬" \
                             --parse_mode html
                         break
                     }
@@ -2061,7 +2061,7 @@ while :; do
                             --reply_markup "$(ShellBot.ForceReply)"
                     } || {
                         ShellBot.sendMessage --chat_id ${message_from_id[$id]} \
-                            --text "<b>✅ SUCCESSFULLY CREATED ✅</b>\n\n♻️ DATAKINGDOM PAID PRIVATE SSH ♻️\n\n🔥⚡️⚡️ CONFIG BY DATAKINGDOM TEAM ⚡️⚡🔥\n======================\n=❌NO SPAM\n=❌NO DDOS\n=❌NO HACKING\n=❌NO CARDING\n=❌NO TORRENT\n=❌NO OVER DOWNLOAD\n=❌NO MULTILOGIN\n=======================\n\n\nᗚ IP • ๛ $(cat /etc/IP)\nᗚ Username • ๛ <code>$(awk -F " " '/Nome/ {print $2}' $CAD_ARQ)</code>\nᗚ Password • ๛ <code>$(awk -F " " '/Senha/ {print $2}' $CAD_ARQ)</code>\nᗚ Limit • $(awk -F " " '/Limite/ {print $2}' $CAD_ARQ)\nᗚ Expire • $(awk -F " " '/Validade/ {print $2}' $CAD_ARQ)\n\n࿂ SSH •  22\n࿂ SSL •  443\n࿂ Squid  •  8080\n࿂ Dropbear •  80\n[-] ═───────◇───────═\n࿂ Badvpn •  7300\n [-] ═───────◇───────═\n›☬[•] SCRIPTS ═◇⚡️⚡️ BY DATAKINGDOM ⚡️⚡ ◇═ [•]☬" \
+                            --text "<b>✅ CREADO EXITOSAMENTE ✅\n\n♻️ ☬ Reseller: DansBot ♻️\n\n🔥⚡️⚡️ CONFIG BY DANS TEAM ⚡️⚡🔥\n======================\n=❌NO SPAM\n=❌NO DDOS\n=❌NO HACKING\n=❌NO CARDING\n=❌NO TORRENT\n=❌NO OVER DOWNLOAD\n=❌NO MULTILOGIN\n=======================\n\n\nᗚ IP • ๛ $(cat /etc/IP)\nᗚ Username • ๛ <code>$(awk -F " " '/Nome/ {print $2}' $CAD_ARQ)</code>\nᗚ Password • ๛ <code>$(awk -F " " '/Senha/ {print $2}' $CAD_ARQ)</code>\nᗚ Limit • $(awk -F " " '/Limite/ {print $2}' $CAD_ARQ)\nᗚ Expire • $(awk -F " " '/Validade/ {print $2}' $CAD_ARQ)\n\n࿂ SSH •  22\n࿂ SSL •  443\n࿂ Squid  •  8080\n࿂ Dropbear •  80\n[-] ═───────◇───────═\n࿂ Badvpn •  7300\n [-] ═───────◇───────═\n›☬[•] SCRIPTS ═◇⚡️⚡️ BY DATAKINGDOM ⚡️⚡ ◇═ [•]☬" \
                             --parse_mode html
                     }
                     ;;
@@ -2073,7 +2073,7 @@ while :; do
                             --text "$(echo -e "❌ Invalid option ❌ \n\n⚠️ Use only numbers [EX: 1]")" \
                             --parse_mode html
                         ShellBot.sendMessage --chat_id ${message_from_id[$id]} \
-                            --text "<b>✅ SUCCESSFULLY CREATED ✅</b>\n\n♻️ DATAKINGDOM PAID PRIVATE SSH ♻️\n\n🔥⚡️⚡️ CONFIG BYDATAKINGDOM TEAM⚡️⚡🔥\n======================\n=❌NO SPAM\n=❌NO DDOS\n=❌NO HACKING\n=❌NO CARDING\n=❌NO TORRENT\n=❌NO OVER DOWNLOAD\n=❌NO MULTILOGIN\n=======================\n\n\nᗚ IP • ๛ $(cat /etc/IP)\nᗚ Username • ๛ <code>$(awk -F " " '/Nome/ {print $2}' $CAD_ARQ)</code>\nᗚ Password • ๛ <code>$(awk -F " " '/Senha/ {print $2}' $CAD_ARQ)</code>\nᗚ Limit • $(awk -F " " '/Limite/ {print $2}' $CAD_ARQ)\nᗚ Expire • $(awk -F " " '/Validade/ {print $2}' $CAD_ARQ)\n\n࿂ SSH •  22\n࿂ SSL •  443\n࿂ Squid  •  8080\n࿂ Dropbear •  80\n[-] ═───────◇───────═\n࿂ Badvpn •  7300\n [-] ═───────◇───────═\n›☬[•] SCRIPTS ═◇ ⚡️⚡️ BY DATAKINGDOM ⚡️⚡ ◇═ [•]☬" \
+                            --text "<b>✅ CREADO EXITOSAMENTE ✅\n\n♻️ ☬ Reseller: DansBot ♻️\n\n🔥⚡️⚡️ CONFIG BY DANS TEAM⚡️⚡🔥\n======================\n=❌NO SPAM\n=❌NO DDOS\n=❌NO HACKING\n=❌NO CARDING\n=❌NO TORRENT\n=❌NO OVER DOWNLOAD\n=❌NO MULTILOGIN\n=======================\n\n\nᗚ IP • ๛ $(cat /etc/IP)\nᗚ Username • ๛ <code>$(awk -F " " '/Nome/ {print $2}' $CAD_ARQ)</code>\nᗚ Password • ๛ <code>$(awk -F " " '/Senha/ {print $2}' $CAD_ARQ)</code>\nᗚ Limit • $(awk -F " " '/Limite/ {print $2}' $CAD_ARQ)\nᗚ Expire • $(awk -F " " '/Validade/ {print $2}' $CAD_ARQ)\n\n࿂ SSH •  22\n࿂ SSL •  443\n࿂ Squid  •  8080\n࿂ Dropbear •  80\n[-] ═───────◇───────═\n࿂ Badvpn •  7300\n [-] ═───────◇───────═\n›☬[•] SCRIPTS ═◇ ⚡️⚡️ BY DATAKINGDOM ⚡️⚡ ◇═ [•]☬" \
                             --parse_mode html
                         >$CAD_ARQ
                         break
@@ -2089,7 +2089,7 @@ while :; do
                     fun_del_user ${message_text[$id]}
                     [[ "$_erro" == '1' ]] && break
                     ShellBot.sendMessage --chat_id ${message_from_id[$id]} \
-                        --text "✅ * SUCCESSFULLY REMOVED *\n ⚡️⚡️ BY DATAKINGDOM ⚡️⚡ \n 🚮" \
+                        --text "✅ * SUCCESSFULLY REMOVED *\n ⚡️⚡️ BY DANSDBOT ⚡️⚡ \n 🚮" \
                         --parse_mode markdown
                     ;;
                 '🔐 Change Password 🔐\n\nUsername:')
@@ -2238,7 +2238,7 @@ while :; do
                         [[ -e /etc/bot/arquivos/$_file ]] && {
                             rm /etc/bot/arquivos/$_file
                             ShellBot.sendMessage --chat_id ${message_from_id[$id]} \
-                                --text "✅ * SUCCESSFULLY DELETED * ✅" \n ⚡️⚡️ BY DATAKINGDOM ⚡️⚡ \n \
+                                --text "✅ * ELIMINADO EXITOSAMENTE * ✅" \n ⚡️⚡️ BY DANS ⚡️⚡ \n \
                                 --parse_mode markdown
                             break
                         } || {
@@ -2365,7 +2365,7 @@ while :; do
                     _clientrev=$(cat $CAD_ARQ)
                     criar_rev $CAD_ARQ
                     ShellBot.sendMessage --chat_id ${message_from_id[$id]} \
-                        --text "✅ SUCCESSFULLY CREATED ✅\n ⚡️⚡️ BY DATAKINGDOM ⚡️⚡ \n\n$(<$CAD_ARQ)\n\nBOT: @${message_reply_to_message_from_username}" \
+                        --text "✅ CREADO EXITOSAMENTE ✅\n ⚡️⚡️ BY DANSDBOT ⚡️⚡ \n\n$(<$CAD_ARQ)\n\nBOT: @${message_reply_to_message_from_username}" \
                         --parse_mode html
                     ;;
                     # REMOVE REVENDEDOR

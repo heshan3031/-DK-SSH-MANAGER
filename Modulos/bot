@@ -2061,7 +2061,7 @@ while :; do
                             --reply_markup "$(ShellBot.ForceReply)"
                     } || {
                         ShellBot.sendMessage --chat_id ${message_from_id[$id]} \
-                            --text "<b>✅ SUCCESSFULLY CREATED ✅</b>\n\n♻️ DATAKINGDOM PAID PRIVATE SSH ♻️\n\n🔥⚡️⚡️ CONFIG BY DATAKINGDOM TEAM ⚡️⚡🔥\n======================\n=❌NO SPAM\n=❌NO DDOS\n=❌NO HACKING\n=❌NO CARDING\n=❌NO TORRENT\n=❌NO OVER DOWNLOAD\n=❌NO MULTILOGIN\n=======================\n\n\nᗚ IP • ๛ $(cat /etc/IP)\nᗚ Username • ๛ <code>$(awk -F " " '/Nome/ {print $2}' $CAD_ARQ)</code>\nᗚ Password • ๛ <code>$(awk -F " " '/Senha/ {print $2}' $CAD_ARQ)</code>\nᗚ Limit • $(awk -F " " '/Limite/ {print $2}' $CAD_ARQ)\nᗚ Expire • $(awk -F " " '/Validade/ {print $2}' $CAD_ARQ)\n\n࿂ SSH •  22\n࿂ SSL •  443\n࿂ Squid  •  8080\n࿂ Dropbear •  80\n[-] ═───────◇───────═\n࿂ Badvpn •  7300\n [-] ═───────◇───────═\n›☬[•] SCRIPTS ═◇⚡️⚡️ BY DATAKINGDOM ⚡️⚡ ◇═ [•]☬" \
+                            --text "<b>✅ CREADO EXITOSAMENTE ✅ ✅</b>\n\n♻️ SSH PRIVADO ♻️\n\n🔥⚡️⚡️ CONFIG BY DANS TEAM ⚡️⚡🔥\n======================\n=❌NO SPAM\n=❌NO DDOS\n=❌NO HACKING\n=❌NO CARDING\n=❌NO TORRENT\n=❌NO OVER DOWNLOAD\n=❌NO MULTILOGIN\n=======================\n\n\nᗚ IP • ๛ $(cat /etc/IP)\nᗚ Username • ๛ <code>$(awk -F " " '/Nome/ {print $2}' $CAD_ARQ)</code>\nᗚ Password • ๛ <code>$(awk -F " " '/Senha/ {print $2}' $CAD_ARQ)</code>\nᗚ Limit • $(awk -F " " '/Limite/ {print $2}' $CAD_ARQ)\nᗚ Expire • $(awk -F " " '/Validade/ {print $2}' $CAD_ARQ)\n\n࿂ SSH •  22\n࿂ SSL •  443\n࿂ Squid  •  8080\n࿂ Dropbear •  80\n[-] ═───────◇───────═\n࿂ Badvpn •  7300\n [-] ═───────◇───────═\n›☬[•] SCRIPTS ═◇⚡️⚡️ BY DATAKINGDOM ⚡️⚡ ◇═ [•]☬" \
                             --parse_mode html
                     }
                     ;;
@@ -2073,7 +2073,7 @@ while :; do
                             --text "$(echo -e "❌ Invalid option ❌ \n\n⚠️ Use only numbers [EX: 1]")" \
                             --parse_mode html
                         ShellBot.sendMessage --chat_id ${message_from_id[$id]} \
-                            --text "<b>✅ SUCCESSFULLY CREATED ✅</b>\n\n♻️ DATAKINGDOM PAID PRIVATE SSH ♻️\n\n🔥⚡️⚡️ CONFIG BYDATAKINGDOM TEAM⚡️⚡🔥\n======================\n=❌NO SPAM\n=❌NO DDOS\n=❌NO HACKING\n=❌NO CARDING\n=❌NO TORRENT\n=❌NO OVER DOWNLOAD\n=❌NO MULTILOGIN\n=======================\n\n\nᗚ IP • ๛ $(cat /etc/IP)\nᗚ Username • ๛ <code>$(awk -F " " '/Nome/ {print $2}' $CAD_ARQ)</code>\nᗚ Password • ๛ <code>$(awk -F " " '/Senha/ {print $2}' $CAD_ARQ)</code>\nᗚ Limit • $(awk -F " " '/Limite/ {print $2}' $CAD_ARQ)\nᗚ Expire • $(awk -F " " '/Validade/ {print $2}' $CAD_ARQ)\n\n࿂ SSH •  22\n࿂ SSL •  443\n࿂ Squid  •  8080\n࿂ Dropbear •  80\n[-] ═───────◇───────═\n࿂ Badvpn •  7300\n [-] ═───────◇───────═\n›☬[•] SCRIPTS ═◇ ⚡️⚡️ BY DATAKINGDOM ⚡️⚡ ◇═ [•]☬" \
+                            --text "<b>✅ 🔰 CREADO EXITOSAMENTE 🔰 ✅</b>\n\n♻️ SSH PRIVADO  ♻️\n\n🔥⚡️⚡️ CONFIG BYDANSBOT TEAM⚡️⚡🔥\n======================\n=❌NO SPAM\n=❌NO DDOS\n=❌NO HACKING\n=❌NO CARDING\n=❌NO TORRENT\n=❌NO OVER DOWNLOAD\n=❌NO MULTILOGIN\n=======================\n\n\nᗚ IP • ๛ $(cat /etc/IP)\nᗚ Username • ๛ <code>$(awk -F " " '/Nome/ {print $2}' $CAD_ARQ)</code>\nᗚ Password • ๛ <code>$(awk -F " " '/Senha/ {print $2}' $CAD_ARQ)</code>\nᗚ Limit • $(awk -F " " '/Limite/ {print $2}' $CAD_ARQ)\nᗚ Expire • $(awk -F " " '/Validade/ {print $2}' $CAD_ARQ)\n\n࿂ SSH •  22\n࿂ SSL •  443\n࿂ Squid  •  8080\n࿂ Dropbear •  80\n[-] ═───────◇───────═\n࿂ Badvpn •  7300\n [-] ═───────◇───────═\n›☬[•] SCRIPTS ═◇ ⚡️⚡️ BY DATAKINGDOM ⚡️⚡ ◇═ [•]☬" \
                             --parse_mode html
                         >$CAD_ARQ
                         break
@@ -2238,7 +2238,7 @@ while :; do
                         [[ -e /etc/bot/arquivos/$_file ]] && {
                             rm /etc/bot/arquivos/$_file
                             ShellBot.sendMessage --chat_id ${message_from_id[$id]} \
-                                --text "✅ * SUCCESSFULLY DELETED * ✅" \n ⚡️⚡️ BY DATAKINGDOM ⚡️⚡ \n \
+                                --text "✅ * 🔰 CREADO EXITOSAMENTE * ✅" \n ⚡️⚡️ BY DANSDBOT ⚡️⚡ \n \
                                 --parse_mode markdown
                             break
                         } || {
@@ -2365,7 +2365,7 @@ while :; do
                     _clientrev=$(cat $CAD_ARQ)
                     criar_rev $CAD_ARQ
                     ShellBot.sendMessage --chat_id ${message_from_id[$id]} \
-                        --text "✅ SUCCESSFULLY CREATED ✅\n ⚡️⚡️ BY DATAKINGDOM ⚡️⚡ \n\n$(<$CAD_ARQ)\n\nBOT: @${message_reply_to_message_from_username}" \
+                        --text "✅ CREADO EXITOSAMENTE 🇲🇽 ✅\n ⚡️⚡️ BY DANSDBOT ⚡️⚡ \n\n$(<$CAD_ARQ)\n\nBOT: @${message_reply_to_message_from_username}" \
                         --parse_mode html
                     ;;
                     # REMOVE REVENDEDOR

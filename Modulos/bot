@@ -43,12 +43,12 @@ fun_menu() {
         local env_msg
         env_msg="━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n"
         env_msg+="=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=\n"
-        env_msg+="<b>---------- ♻️ DK SSH MANAGER ♻️----------</b>\n"
-        env_msg+="<b>  🔥⚡️⚡️ CREATED BY DATA-KING-OFFCIAL ⚡️⚡🔥  </b>\n"
+        env_msg+="<b>---------- ♻️ DAN SSH MANAGER ♻️----------</b>\n"
+        env_msg+="<b>  🔥⚡️⚡️ CREATED BY DANSBOT OFFCIAL ⚡️⚡🔥  </b>\n"
         env_msg+="=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=\n"
         env_msg+="<b>💎Telegram-Whatsapp-@Dk_king_offcial/+94768100942💎 </b>\n"
         env_msg+="━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n"
-        env_msg+="➡️ <i>🟥⬜️⚙️🛠 DATAKINGDOM SSH MANAGER BOT MENU ⚙️🛠🟥⬜️</i>\n\n"
+        env_msg+="➡️ <i>🟥⬜️⚙️🛠 DANS SSH MANAGER BOT MENU ⚙️🛠🟥⬜️</i>\n\n"
         ShellBot.sendMessage --chat_id ${message_chat_id[$id]} --text "$env_msg" \
             --reply_markup "$keyboard2" \
             --parse_mode html
@@ -57,12 +57,12 @@ fun_menu() {
         local env_msg
         env_msg="━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n"
         env_msg+="=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=\n"
-        env_msg+="<b>---------- ♻️ DK SSH MANAGER ♻️----------</b>\n"
-        env_msg+="<b>  🔥⚡️⚡️ CREATED BY DATA-KING-OFFCIAL ⚡️⚡🔥  </b>\n"
+        env_msg+="<b>---------- ♻️ DAN SSH MANAGER ♻️----------</b>\n"
+        env_msg+="<b>  🔥⚡️⚡️ CREATED BY DANSBOT OFFCIAL ⚡️⚡🔥  </b>\n"
         env_msg+="=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=\n"
         env_msg+="<b>💎Telegram-Whatsapp-@Dk_king_offcial/+94768100942💎 </b>\n"
         env_msg+="━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n"
-        env_msg+="➡️ <i>🟥⬜️⚙️🛠 DATAKINGDOM SSH MANAGER BOT MENU ⚙️🛠🟥⬜️</i>\n\n"
+        env_msg+="➡️ <i>🟥⬜️⚙️🛠 DANS SSH MANAGER BOT MENU ⚙️🛠🟥⬜️</i>\n\n"
         ShellBot.sendMessage --chat_id ${message_chat_id[$id]} --text "$env_msg" \
             --reply_markup "$keyboard3" \
             --parse_mode html
@@ -86,19 +86,19 @@ fun_ajuda() {
         local env_msg
         env_msg="━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n"
         env_msg+="=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=\n"
-        env_msg+="<b>---------- ♻️ DK SSH MANAGER ♻️----------</b>\n"
-        env_msg+="<b>  🔥⚡️⚡️ CREATED BY DATA-KING-OFFCIAL ⚡️⚡🔥  </b>\n"
+        env_msg+="<b>---------- ♻️ DAN SSH MANAGER ♻️----------</b>\n"
+        env_msg+="<b>  🔥⚡️⚡️ CREATED BY DANSBOT OFFCIAL ⚡️⚡🔥  </b>\n"
         env_msg+="=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=\n"
         env_msg+="<b>💎Telegram-Whatsapp-@Dk_king_offcial/+94768100942💎 </b>\n"
         env_msg+="━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n"
-        env_msg+="➡️ <i>🟥⬜️⚙️🛠 DATAKINGDOM SSH MANAGER BOT MENU ⚙️🛠🟥⬜️</i>\n\n"
+        env_msg+="➡️ <i>🟥⬜️⚙️🛠 DANSDBOT SSH MANAGER BOT MENU ⚙️🛠🟥⬜️</i>\n\n"
         env_msg+="⚠️ <i>Available Commands</i>\n\n"
         env_msg+="[<b>01</b>] /menu = Displays menu\n"
         env_msg+="[<b>02</b>] /info = Displays information\n"
         env_msg+="[<b>03</b>] /HELP = Option information\n\n"
         env_msg+="⚠️ <i>Available Options</i>\n\n"
-        env_msg+="• <u>CREATE USER</u> = Create ssh user\n\n"
-        env_msg+="• <u>CREATE TEST</u> = Create ssh test\n\n"
+        env_msg+="• <u>CREAR USUARIO</u> = Create ssh user\n\n"
+        env_msg+="• <u>CREAR DEMO</u> = Create ssh test\n\n"
         env_msg+="• <u>TO REMOVE</u> = Remove ssh user\n\n"
         env_msg+="• <u>USER INFO</u> = User information\n\n"
         env_msg+="• <u>ONLINE USERS</u> = Displays online users\n\n"
@@ -127,12 +127,12 @@ fun_ajuda() {
         local env_msg
         env_msg="━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n"
         env_msg+="=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=\n"
-        env_msg+="<b>---------- ♻️ DK SSH MANAGER ♻️----------</b>\n"
-        env_msg+="<b>  🔥⚡️⚡️ CREATED BY DATA-KING-OFFCIAL ⚡️⚡🔥  </b>\n"
+        env_msg+="<b>---------- ♻️ DAN SSH MANAGER ♻️----------</b>\n"
+        env_msg+="<b>  🔥⚡️⚡️ CREATED BY DANSBOT OFFCIAL ⚡️⚡🔥  </b>\n"
         env_msg+="=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=\n"
         env_msg+="<b>💎Telegram-Whatsapp-@Dk_king_offcial/+94768100942💎 </b>\n"
         env_msg+="━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n"
-        env_msg+="➡️ <i>🟥⬜️⚙️🛠 DATAKINGDOM SSH MANAGER BOT MENU ⚙️🛠🟥⬜️</i>\n\n"
+        env_msg+="➡️ <i>🟥⬜️⚙️🛠 DANS SSH MANAGER BOT MENU ⚙️🛠🟥⬜️</i>\n\n"
         env_msg+="⚠️ <i>Available Commands</i>\n\n"
         env_msg+="[<b>01</b>] /menu = Displays menu\n"
         env_msg+="[<b>02</b>] /info = Displays information\n"
@@ -169,16 +169,16 @@ fun_ajuda() {
         env_msg+="[<b>02</b>] /info = Displays information\n"
         env_msg+="[<b>03</b>] /HELP = Option information\n\n"
         env_msg+="⚠️ <i>Available Options</i>\n\n"
-        env_msg+="• <u>CREATE USER</u> = Create ssh user\n\n"
-        env_msg+="• <u>CREATE TEST</u> = Create ssh test\n\n"
-        env_msg+="• <u>TO REMOVE</u> = Remove ssh user\n\n"
-        env_msg+="• <u>USER INFO</u> = User information\n\n"
-        env_msg+="• <u>ONLINE USERS</u> = Displays online users\n\n"
-        env_msg+="• <u>CHANGE PASSWORD</u> =Change ssh password\n\n"
-        env_msg+="• <u>CHANGE LIMIT</u> = Change ssh limit\n\n"
-        env_msg+="• <u>CHANGE DATE</u> = Change ssh data\n\n"
-        env_msg+="• <u>EXPIRED</u> = Remove expired ssh\n\n"
-        env_msg+="• <u>HELP</u> = Option information\n\n"
+        env_msg+="• <u>CREAR USUARIO</u> = Crear ssh user\n\n"
+        env_msg+="• <u>CREAR DEMO</u> = Crear ssh demo\n\n"
+        env_msg+="• <u>ELIMINAR USER</u> = Eliminar ssh user\n\n"
+        env_msg+="• <u>USER INFO</u> = User informacion\n\n"
+        env_msg+="• <u>ONLINE USERS</u> = Pantalla online users\n\n"
+        env_msg+="• <u>CAMBIAR PASSWORD</u> =Cambiar ssh password\n\n"
+        env_msg+="• <u>CAMBIAR LIMITE</u> = Cambiar ssh limit\n\n"
+        env_msg+="• <u>CAMBIAR DATE</u> = Cambiar ssh fecha\n\n"
+        env_msg+="• <u>EXPIRADOS</u> = Remove expired ssh\n\n"
+        env_msg+="• <u>AYUDA</u> = Option information\n\n"
         ShellBot.sendMessage --chat_id $id_chatuser \
             --text "$(echo -e $env_msg)" \
             --parse_mode html
@@ -207,7 +207,7 @@ fun_adduser() {
     }
     [[ "${callback_query_from_id[$id]}" == "$id_admin" ]] || [[ "$(grep -wc ${callback_query_from_username} $ativos)" != '0' ]] && {
         ShellBot.sendMessage --chat_id ${callback_query_message_chat_id[$id]} \
-            --text "👤 CREATE USER 👤\n\nUsername:" \
+            --text "👤 CREAR USER 👤\n\nUsername:" \
             --reply_markup "$(ShellBot.ForceReply)"
     } || {
         ShellBot.answerCallbackQuery --callback_query_id ${callback_query_id[$id]} \
@@ -243,7 +243,7 @@ criar_user() {
         (echo "${senha}";echo "${senha}") | passwd "${usuario}"
     else
         ShellBot.sendMessage --chat_id ${message_chat_id[$id]} \
-                --text "$(echo -e "❌ ERROR CREATING USER ❌")" \
+                --text "$(echo -e "❌ ERROR AL CREAR USUARIO ❌")" \
                 --parse_mode html
         return 0
     fi
@@ -518,7 +518,7 @@ ver_users() {
         arq_info=/tmp/$(echo $RANDOM)
         local info_users
         info_users='=×=×=×=×=×=×=×=×=×=×=×=×=×=\n'
-        info_users+='<b>USER INFORMATION</b>\n'
+        info_users+='<b>INFORMACION DE USUARIOS</b>\n'
         info_users+='=×=×=×=×=×=×=×=×=×=×=×=×=×=\n\n'
         info_users+='⚠️ Displays in the format below:\n\n'
         info_users+='<code>USER PASSWORD DATE LIMIT</code>\n'
@@ -599,7 +599,7 @@ monitor_ssh() {
         cad_onli=/tmp/$(echo $RANDOM)
         local info_on
         info_on='=×=×=×=×=×=×=×=×=×=×=×=×=×=\n'
-        info_on+='<b>ONLINES USERS MONITOR</b>\n'
+        info_on+='<b>ONLINES USERS PANTALLA</b>\n'
         info_on+='=×=×=×=×=×=×=×=×=×=×=×=×=×=\n\n'
         info_on+='⚠️ Displays in the format below:\n\n'
         info_on+='<code>ONLIN USERE/TIME LIMIT\n</code>'
@@ -771,16 +771,16 @@ infovps() {
     [[ "$(netstat -nplt | grep 'python' | wc -l)" != '0' ]] && echo -e "Proxy Socks: $(netstat -nplt | grep 'python' | awk {'print $4'} | cut -d: -f2 | xargs)" >>$PTs
     local info
     info="=×=×=×=×=×=×=×=×=×=×=×=×=×=\n"
-    info+="<b>SERVER INFORMATION</b>\n"
+    info+="<b>INFO DEL VPS</b>\n"
     info+="=×=×=×=×=×=×=×=×=×=×=×=×=×=\n\n"
-    info+="<b>OPERATIONAL SYSTEM</b>\n"
+    info+="<b>SYSTEMA OPERATIVO</b>\n"
     info+="$system\n\n"
-    info+="<b>PROCESSOR</b>\n"
+    info+="<b>PROCESADOR</b>\n"
     info+="<b>CORES:</b> $cpucores\n"
-    info+="<b>Use:</b> $uso\n\n"
-    info+="<b>RAM MEMORY</b>\n"
+    info+="<b>Usado:</b> $uso\n\n"
+    info+="<b>MEMORIA RAM</b>\n"
     info+="<b>Total:</b> $ram1\n"
-    info+="<b>Use:</b> $usoram\n\n"
+    info+="<b>Usado:</b> $usoram\n\n"
     while read linha; do
         info+="<b>$(echo -e "$linha")</b>\n"
     done < <(cat $PTs)
@@ -820,7 +820,7 @@ fun_download() {
     echo $_file2
     ShellBot.sendDocument --chat_id ${message_from_id[$id]} \
         --document "@/etc/bot/arquivos/$_file" \
-        --caption "$(echo -e "✅ SUCCESSFULLY CREATED ✅\n\n♻️ DATAKINGDOM PAID PRIVATE SSH ♻️\n\n ⚡️⚡️ CONFIG BY DATAKINGDOM TEAM ⚡️⚡\n======================\n=❌NO SPAM\n=❌NO DDOS\n=+❌NO HACKING\n=❌NO CARDING\n=❌NO TORRENT\n=❌NO OVER DOWNLOAD\n=❌NO MULTILOGIN\n=======================\n\n\nᗚ Username • ๛ <code>$(awk -F " " '/Nome/ {print $2}' $_file2)</code>\nᗚ Password • ๛ <code>$(awk -F " " '/Senha/ {print $2}' $_file2)</code>\nᗚ Limit • $(awk -F " " '/Limite/ {print $2}' $_file2)\nᗚ Expire • $(awk -F " " '/Validade/ {print $2}' $_file2)\n\n࿂ SSH •  22\n࿂ SSL •  443\n࿂ Squid  •  8080\n࿂ Dropbear •  80\n[-] ═───────◇───────═\n࿂ Badvpn •  7300\n [-] ═───────◇───────═\n›☬[•] SCRIPTS ═◇ ⚡️⚡️ BY DATAKINGDOM ⚡️⚡ ◇═ [•]☬")"
+        --caption "$(echo -e "✅ CREADO EXITOSAMENTE ✅\n\n♻️ ☬ Reseller: DansBot ♻️\n\n ⚡️⚡️ CONFIG PASSW Y USER ⚡️⚡\n━━━━▣━━◤INFO◢━━▣━\n=❌NO SPAM\n=❌NO DDOS\n=+❌NO HACKING\n=❌NO CARDING\n=❌NO TORRENT\n=❌NO OVER DOWNLOAD\n=❌NO MULTILOGIN\n=======================\n\n\nᗚ Username • ๛ <code>$(awk -F " " '/Nome/ {print $2}' $_file2)</code>\nᗚ Password • ๛ <code>$(awk -F " " '/Senha/ {print $2}' $_file2)</code>\nᗚ Limit • $(awk -F " " '/Limite/ {print $2}' $_file2)\nᗚ Expire • $(awk -F " " '/Validade/ {print $2}' $_file2)\n\n࿂ SSH •  22\n࿂ SSL •  443\n࿂ Squid  •  8080\n࿂ Dropbear •  80\n[-] ═───────◇───────═\n࿂ Badvpn •  7300\n [-] ═───────◇───────═\n›☬[•] SCRIPTS ═◇ ⚡️⚡️ BY DATAKINGDOM ⚡️⚡ ◇═ [•]☬")"
 	--parse_mode html
     [[ -e "/root/$(awk -F " " '/Nome/ {print $2}' $_file2).ovpn" ]] && {
         ShellBot.sendDocument --chat_id ${message_from_id[$id]} \

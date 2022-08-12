@@ -23,12 +23,12 @@ fun_menu() {
         local env_msg
 	env_msg="━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n"
         env_msg+="=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=\n"
-        env_msg+="<b>---------- ♻️ DAN SSH MANAGER ♻️----------</b>\n"
-        env_msg+="<b>  🔥⚡️⚡️ CREATED BY DANSBOT ⚡️⚡🔥  </b>\n"
+        env_msg+="<b>---------- ♻️ DK SSH MANAGER ♻️----------</b>\n"
+        env_msg+="<b>  🔥⚡️⚡️ CREATED BY DATA-KING-OFFCIAL ⚡️⚡🔥  </b>\n"
         env_msg+="=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=\n"
-        env_msg+="<b>💎Telegram-Whatsapp-@DansBotx/+94768100942💎 </b>\n"
+        env_msg+="<b>💎Telegram-Whatsapp-@Dk_king_offcial/+94768100942💎 </b>\n"
         env_msg+="━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n"
-        env_msg+="➡️ <i>🟥⬜️⚙️🛠 DANSBOT SSH MANAGER BOT MENU ⚙️🛠🟥⬜️</i>\n\n"
+        env_msg+="➡️ <i>🟥⬜️⚙️🛠 DATAKINGDOM SSH MANAGER BOT MENU ⚙️🛠🟥⬜️</i>\n\n"
         ShellBot.sendMessage --chat_id ${message_chat_id[$id]} --text "$env_msg" \
             --reply_markup "$keyboard1" \
             --parse_mode html
@@ -43,12 +43,12 @@ fun_menu() {
         local env_msg
         env_msg="━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n"
         env_msg+="=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=\n"
-        env_msg+="<b>---------- ♻️ DAN SSH MANAGER ♻️----------</b>\n"
-        env_msg+="<b>  🔥⚡️⚡️ CREATED BY DANSBOT OFFCIAL ⚡️⚡🔥  </b>\n"
+        env_msg+="<b>---------- ♻️ DK SSH MANAGER ♻️----------</b>\n"
+        env_msg+="<b>  🔥⚡️⚡️ CREATED BY DATA-KING-OFFCIAL ⚡️⚡🔥  </b>\n"
         env_msg+="=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=\n"
-        env_msg+="<b>💎Telegram-Whatsapp-@DansBotx/+94768100942💎 </b>\n"
+        env_msg+="<b>💎Telegram-Whatsapp-@Dk_king_offcial/+94768100942💎 </b>\n"
         env_msg+="━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n"
-        env_msg+="➡️ <i>🟥⬜️⚙️🛠 DANS SSH MANAGER BOT MENU ⚙️🛠🟥⬜️</i>\n\n"
+        env_msg+="➡️ <i>🟥⬜️⚙️🛠 DATAKINGDOM SSH MANAGER BOT MENU ⚙️🛠🟥⬜️</i>\n\n"
         ShellBot.sendMessage --chat_id ${message_chat_id[$id]} --text "$env_msg" \
             --reply_markup "$keyboard2" \
             --parse_mode html
@@ -57,12 +57,12 @@ fun_menu() {
         local env_msg
         env_msg="━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n"
         env_msg+="=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=\n"
-        env_msg+="<b>---------- ♻️ DAN SSH MANAGER ♻️----------</b>\n"
-        env_msg+="<b>  🔥⚡️⚡️ CREATED BY DANSBOT OFFCIAL ⚡️⚡🔥  </b>\n"
+        env_msg+="<b>---------- ♻️ DK SSH MANAGER ♻️----------</b>\n"
+        env_msg+="<b>  🔥⚡️⚡️ CREATED BY DATA-KING-OFFCIAL ⚡️⚡🔥  </b>\n"
         env_msg+="=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=\n"
-        env_msg+="<b>💎Telegram-Whatsapp-@DansBotx/+94768100942💎 </b>\n"
+        env_msg+="<b>💎Telegram-Whatsapp-@Dk_king_offcial/+94768100942💎 </b>\n"
         env_msg+="━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n"
-        env_msg+="➡️ <i>🟥⬜️⚙️🛠 DANS SSH MANAGER BOT MENU ⚙️🛠🟥⬜️</i>\n\n"
+        env_msg+="➡️ <i>🟥⬜️⚙️🛠 DATAKINGDOM SSH MANAGER BOT MENU ⚙️🛠🟥⬜️</i>\n\n"
         ShellBot.sendMessage --chat_id ${message_chat_id[$id]} --text "$env_msg" \
             --reply_markup "$keyboard3" \
             --parse_mode html
@@ -86,35 +86,35 @@ fun_ajuda() {
         local env_msg
         env_msg="━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n"
         env_msg+="=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=\n"
-        env_msg+="<b>---------- ♻️ DAN SSH MANAGER ♻️----------</b>\n"
-        env_msg+="<b>  🔥⚡️⚡️ CREATED BY DANSBOT OFFCIAL ⚡️⚡🔥  </b>\n"
+        env_msg+="<b>---------- ♻️ DK SSH MANAGER ♻️----------</b>\n"
+        env_msg+="<b>  🔥⚡️⚡️ CREATED BY DATA-KING-OFFCIAL ⚡️⚡🔥  </b>\n"
         env_msg+="=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=\n"
-        env_msg+="<b>💎Telegram-Whatsapp-@DansBotx/+94768100942💎 </b>\n"
+        env_msg+="<b>💎Telegram-Whatsapp-@Dk_king_offcial/+94768100942💎 </b>\n"
         env_msg+="━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n"
-        env_msg+="➡️ <i>🟥⬜️⚙️🛠 DANSDBOT SSH MANAGER BOT MENU ⚙️🛠🟥⬜️</i>\n\n"
+        env_msg+="➡️ <i>🟥⬜️⚙️🛠 DATAKINGDOM SSH MANAGER BOT MENU ⚙️🛠🟥⬜️</i>\n\n"
         env_msg+="⚠️ <i>Available Commands</i>\n\n"
         env_msg+="[<b>01</b>] /menu = Displays menu\n"
         env_msg+="[<b>02</b>] /info = Displays information\n"
         env_msg+="[<b>03</b>] /HELP = Option information\n\n"
         env_msg+="⚠️ <i>Available Options</i>\n\n"
-        env_msg+="• <u>CREAR USUARIO</u> = Crear ssh user\n\n"
-        env_msg+="• <u>CREAR DEMO</u> = Crear ssh demo\n\n"
-        env_msg+="• <u>ELIMINAR</u> = Eliminar ssh user\n\n"
-        env_msg+="• <u>USER INFO</u> = User informacion\n\n"
-        env_msg+="• <u>ONLINE USERS</u> = Pantalla online users\n\n"
-        env_msg+="• <u>INFO VPS</u> = Server informacion\n\n"
-        env_msg+="• <u>CAMBIAR PASSWORD</u> =Cambiar ssh password\n\n"
-        env_msg+="• <u>CAMBIAR LIMIT</u> = Cambiar ssh limite\n\n"
-        env_msg+="• <u>CAMBIAR FECHA</u> = Cambiar ssh fecha\n\n"
-        env_msg+="• <u>EXPIRADOS</u> = Eliminar ssh expirado\n\n"
-        env_msg+="• <u>BACKUP</u> = Crear ssh backup y resellers\n\n"
-        env_msg+="• <u>OPTIMIZAR</u> = Eliminar cache - ram\n\n"
-        env_msg+="• <u>SPEEDTESTE</u> = Velocidad test\n\n"
-        env_msg+="• <u>ARCHIVOS</u> = Hosts Files\n\n"
-        env_msg+="• <u>RESELLER</u> = Manejar Resellers\n\n"
-        env_msg+="• <u>AUTOBACKUP</u> = on / off automatico backup\n\n"
-        env_msg+="• <u>REPORTAR</u> = Reseller Informacion\n\n"
-        env_msg+="• <u>AYUDA</u> = Opcion informacion\n\n"
+        env_msg+="• <u>CREATE USER</u> = Create ssh user\n\n"
+        env_msg+="• <u>CREATE TEST</u> = Create ssh test\n\n"
+        env_msg+="• <u>TO REMOVE</u> = Remove ssh user\n\n"
+        env_msg+="• <u>USER INFO</u> = User information\n\n"
+        env_msg+="• <u>ONLINE USERS</u> = Displays online users\n\n"
+        env_msg+="• <u>INFO VPS</u> = Server information\n\n"
+        env_msg+="• <u>CHANGE PASSWORD</u> =Change ssh password\n\n"
+        env_msg+="• <u>CHANGE LIMIT</u> = Change ssh limit\n\n"
+        env_msg+="• <u>CHANGE DATE</u> = Change ssh data\n\n"
+        env_msg+="• <u>EXPIRED</u> = Remove expired ssh\n\n"
+        env_msg+="• <u>BACKUP</u> = Creates ssh backup and resellers\n\n"
+        env_msg+="• <u>OTIMIZAR</u> = Clear the cache - ram\n\n"
+        env_msg+="• <u>SPEEDTESTE</u> = connection test\n\n"
+        env_msg+="• <u>FILES</u> = Hosts Files\n\n"
+        env_msg+="• <u>RESELLERS</u> = Manage Resellers\n\n"
+        env_msg+="• <u>AUTOBACKUP</u> = on / off automatic backup\n\n"
+        env_msg+="• <u>REPORT</u> = Reseller Information\n\n"
+        env_msg+="• <u>HELP</u> = Option information\n\n"
         ShellBot.sendMessage --chat_id $id_chatuser \
             --text "$(echo -e $env_msg)" \
             --parse_mode html
@@ -127,38 +127,7 @@ fun_ajuda() {
         local env_msg
         env_msg="━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n"
         env_msg+="=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=\n"
-        env_msg+="<b>---------- ♻️ DAN SSH MANAGER ♻️----------</b>\n"
-        env_msg+="<b>  🔥⚡️⚡️ CREATED BY DANSBOT OFFCIAL ⚡️⚡🔥  </b>\n"
-        env_msg+="=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=\n"
-        env_msg+="<b>💎Telegram-Whatsapp-@DansBotx/+94768100942💎 </b>\n"
-        env_msg+="━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n"
-        env_msg+="➡️ <i>🟥⬜️⚙️🛠 DANS SSH MANAGER BOT MENU ⚙️🛠🟥⬜️</i>\n\n"
-        env_msg+="⚠️ <i>Available Commands</i>\n\n"
-        env_msg+="[<b>01</b>] /menu = Displays menu\n"
-        env_msg+="[<b>02</b>] /info = Displays information\n"
-        env_msg+="[<b>03</b>] /HELP = Opcion informacion\n\n"
-        env_msg+="⚠️ <i>Available Options</i>\n\n"
-        env_msg+="• <u>CREAR USER</u> = Crear ssh user\n\n"
-        env_msg+="• <u>CREAR DEMO</u> = Crear ssh demo\n\n"
-        env_msg+="• <u>ELIMINAR SSH</u> = Remove ssh user\n\n"
-        env_msg+="• <u>USER INFO</u> = User informacion\n\n"
-        env_msg+="• <u>ONLINE USERS</u> = Pantalla online users\n\n"
-        env_msg+="• <u>CAMBIAR PASSWORD</u> =Cambiar ssh password\n\n"
-        env_msg+="• <u>CAMBIAR LIMIT</u> = Cambiar ssh limit\n\n"
-        env_msg+="• <u>CAMBIAR FECHA</u> = Cambiar ssh fecha\n\n"
-        env_msg+="• <u>EXPIRADOS</u> =   Eliminar ssh expirado\n\n"
-        env_msg+="• <u>RESELLERS</u> = Manejar Resellers\n\n"
-        env_msg+="• <u>REPORTE</u> = Reseller Informacion\n\n"
-        env_msg+="• <u>AYUDA</u> = Opcion informacion\n\n"
-        ShellBot.sendMessage --chat_id $id_chatuser \
-            --text "$(echo -e $env_msg)" \
-            --parse_mode html
-        return 0
-    elif [[ "$(grep -w "$id_name" $ativos | awk '{print $NF}')" == 'subrevenda' ]]; then
-        local env_msg
-        env_msg="━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n"
-        env_msg+="=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=\n"
-        env_msg+="<b>---------- ♻️ DANS SSH MANAGER ♻️----------</b>\n"
+        env_msg+="<b>---------- ♻️ DK SSH MANAGER ♻️----------</b>\n"
         env_msg+="<b>  🔥⚡️⚡️ CREATED BY DATA-KING-OFFCIAL ⚡️⚡🔥  </b>\n"
         env_msg+="=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=\n"
         env_msg+="<b>💎Telegram-Whatsapp-@Dk_king_offcial/+94768100942💎 </b>\n"
@@ -169,16 +138,47 @@ fun_ajuda() {
         env_msg+="[<b>02</b>] /info = Displays information\n"
         env_msg+="[<b>03</b>] /HELP = Option information\n\n"
         env_msg+="⚠️ <i>Available Options</i>\n\n"
-        env_msg+="• <u>CREAR USUARIO</u> = Crear ssh user\n\n"
-        env_msg+="• <u>CREAR DEMO</u> = Crear ssh demo\n\n"
-        env_msg+="• <u>ELIMINAR USER</u> = Eliminar ssh user\n\n"
-        env_msg+="• <u>USER INFO</u> = User informacion\n\n"
-        env_msg+="• <u>ONLINE USERS</u> = Pantalla online users\n\n"
-        env_msg+="• <u>CAMBIAR PASSWORD</u> =Cambiar ssh password\n\n"
-        env_msg+="• <u>CAMBIAR LIMITE</u> = Cambiar ssh limit\n\n"
-        env_msg+="• <u>CAMBIAR DATE</u> = Cambiar ssh fecha\n\n"
-        env_msg+="• <u>EXPIRADOS</u> = Eliminar expired ssh\n\n"
-        env_msg+="• <u>AYUDA</u> = Opcion informacion\n\n"
+        env_msg+="• <u>CREATE USER</u> = Create ssh user\n\n"
+        env_msg+="• <u>CREATE TEST</u> = Create ssh test\n\n"
+        env_msg+="• <u>TO REMOVE</u> = Remove ssh user\n\n"
+        env_msg+="• <u>USER INFO</u> = User information\n\n"
+        env_msg+="• <u>ONLINE USERS</u> = Displays online users\n\n"
+        env_msg+="• <u>CHANGE PASSWORD</u> =Change ssh password\n\n"
+        env_msg+="• <u>CHANGE LIMIT</u> = Change ssh limit\n\n"
+        env_msg+="• <u>CHANGE DATE</u> = Change ssh data\n\n"
+        env_msg+="• <u>EXPIRED</u> = Remove expired ssh\n\n"
+        env_msg+="• <u>RESELLERS</u> = Manage Resellers\n\n"
+        env_msg+="• <u>REPORT</u> = Reseller Information\n\n"
+        env_msg+="• <u>HELP</u> = Option information\n\n"
+        ShellBot.sendMessage --chat_id $id_chatuser \
+            --text "$(echo -e $env_msg)" \
+            --parse_mode html
+        return 0
+    elif [[ "$(grep -w "$id_name" $ativos | awk '{print $NF}')" == 'subrevenda' ]]; then
+        local env_msg
+        env_msg="━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n"
+        env_msg+="=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=\n"
+        env_msg+="<b>---------- ♻️ DK SSH MANAGER ♻️----------</b>\n"
+        env_msg+="<b>  🔥⚡️⚡️ CREATED BY DATA-KING-OFFCIAL ⚡️⚡🔥  </b>\n"
+        env_msg+="=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=\n"
+        env_msg+="<b>💎Telegram-Whatsapp-@Dk_king_offcial/+94768100942💎 </b>\n"
+        env_msg+="━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n"
+        env_msg+="➡️ <i>🟥⬜️⚙️🛠 DATAKINGDOM SSH MANAGER BOT MENU ⚙️🛠🟥⬜️</i>\n\n"
+        env_msg+="⚠️ <i>Available Commands</i>\n\n"
+        env_msg+="[<b>01</b>] /menu = Displays menu\n"
+        env_msg+="[<b>02</b>] /info = Displays information\n"
+        env_msg+="[<b>03</b>] /HELP = Option information\n\n"
+        env_msg+="⚠️ <i>Available Options</i>\n\n"
+        env_msg+="• <u>CREATE USER</u> = Create ssh user\n\n"
+        env_msg+="• <u>CREATE TEST</u> = Create ssh test\n\n"
+        env_msg+="• <u>TO REMOVE</u> = Remove ssh user\n\n"
+        env_msg+="• <u>USER INFO</u> = User information\n\n"
+        env_msg+="• <u>ONLINE USERS</u> = Displays online users\n\n"
+        env_msg+="• <u>CHANGE PASSWORD</u> =Change ssh password\n\n"
+        env_msg+="• <u>CHANGE LIMIT</u> = Change ssh limit\n\n"
+        env_msg+="• <u>CHANGE DATE</u> = Change ssh data\n\n"
+        env_msg+="• <u>EXPIRED</u> = Remove expired ssh\n\n"
+        env_msg+="• <u>HELP</u> = Option information\n\n"
         ShellBot.sendMessage --chat_id $id_chatuser \
             --text "$(echo -e $env_msg)" \
             --parse_mode html
@@ -243,7 +243,7 @@ criar_user() {
         (echo "${senha}";echo "${senha}") | passwd "${usuario}"
     else
         ShellBot.sendMessage --chat_id ${message_chat_id[$id]} \
-                --text "$(echo -e "❌ ERROR AL CREAR USUARIO ❌")" \
+                --text "$(echo -e "❌ ERROR CREATING USER ❌")" \
                 --parse_mode html
         return 0
     fi
@@ -269,7 +269,7 @@ fun_deluser() {
     }
     [[ "${callback_query_from_id[$id]}" == "$id_admin" ]] || [[ "$(grep -wc ${callback_query_from_username} $ativos)" != '0' ]] && {
         ShellBot.sendMessage --chat_id ${callback_query_message_chat_id[$id]} \
-            --text "🗑 ELIMINAR USER 🗑\n\nUsername:" \
+            --text "🗑 REMOVE USER 🗑\n\nUsername:" \
             --reply_markup "$(ShellBot.ForceReply)"
     } || {
         ShellBot.answerCallbackQuery --callback_query_id ${callback_query_id[$id]} \
@@ -328,7 +328,7 @@ alterar_senha() {
     }
     [[ "${callback_query_from_id[$id]}" == "$id_admin" ]] || [[ "$(grep -wc ${callback_query_from_username} $ativos)" != '0' ]] && {
         ShellBot.sendMessage --chat_id ${callback_query_message_chat_id[$id]} \
-            --text "🔐 Cambiar Password 🔐\n\nUsername:" \
+            --text "🔐Change Password 🔐\n\nUsername:" \
             --reply_markup "$(ShellBot.ForceReply)"
     } || {
         ShellBot.answerCallbackQuery --callback_query_id ${callback_query_id[$id]} \
@@ -422,7 +422,7 @@ alterar_data() {
     }
     [[ "${callback_query_from_id[$id]}" == "$id_admin" ]] || [[ "$(grep -wc ${callback_query_from_username} $ativos)" != '0' ]] && {
         ShellBot.sendMessage --chat_id ${callback_query_message_chat_id[$id]} \
-            --text "⏳ Cambiar Fecha ⏳\n\nUsername:" \
+            --text "⏳ Change Date ⏳\n\nUsername:" \
             --reply_markup "$(ShellBot.ForceReply)"
     } || {
         ShellBot.answerCallbackQuery --callback_query_id ${callback_query_id[$id]} \
@@ -466,10 +466,10 @@ ver_users() {
         arq_info=/tmp/$(echo $RANDOM)
         local info_users
         info_users='=×=×=×=×=×=×=×=×=×=×=×=×=×=\n'
-        info_users+='<b>INFORMACION USER</b>\n'
+        info_users+='<b>USER INFORMATION</b>\n'
         info_users+='=×=×=×=×=×=×=×=×=×=×=×=×=×=\n\n'
         info_users+='⚠️ Displays in the format below:\n\n'
-        info_users+='<code>USUARIO CONTRASEÑA FECHA LÍMITE</code>\n'
+        info_users+='<code>USER PASSWORD DATE LIMIT</code>\n'
         ShellBot.sendMessage --chat_id $id_admin \
             --text "$(echo -e $info_users)" \
             --parse_mode html
@@ -518,10 +518,10 @@ ver_users() {
         arq_info=/tmp/$(echo $RANDOM)
         local info_users
         info_users='=×=×=×=×=×=×=×=×=×=×=×=×=×=\n'
-        info_users+='<b>INFORMACION DE USUARIOS</b>\n'
+        info_users+='<b>USER INFORMATION</b>\n'
         info_users+='=×=×=×=×=×=×=×=×=×=×=×=×=×=\n\n'
         info_users+='⚠️ Displays in the format below:\n\n'
-        info_users+='<code>USUARIO CONTRASEÑA FECHA LÍMITE</code>\n'
+        info_users+='<code>USER PASSWORD DATE LIMIT</code>\n'
         ShellBot.sendMessage --chat_id ${callback_query_message_chat_id[$id]} \
             --text "$(echo -e $info_users)" \
             --parse_mode html
@@ -599,7 +599,7 @@ monitor_ssh() {
         cad_onli=/tmp/$(echo $RANDOM)
         local info_on
         info_on='=×=×=×=×=×=×=×=×=×=×=×=×=×=\n'
-        info_on+='<b>ONLINES USERS PANTALLA</b>\n'
+        info_on+='<b>ONLINES USERS MONITOR</b>\n'
         info_on+='=×=×=×=×=×=×=×=×=×=×=×=×=×=\n\n'
         info_on+='⚠️ Displays in the format below:\n\n'
         info_on+='<code>ONLIN USERE/TIME LIMIT\n</code>'
@@ -771,16 +771,16 @@ infovps() {
     [[ "$(netstat -nplt | grep 'python' | wc -l)" != '0' ]] && echo -e "Proxy Socks: $(netstat -nplt | grep 'python' | awk {'print $4'} | cut -d: -f2 | xargs)" >>$PTs
     local info
     info="=×=×=×=×=×=×=×=×=×=×=×=×=×=\n"
-    info+="<b>INFO DEL VPS</b>\n"
+    info+="<b>SERVER INFORMATION</b>\n"
     info+="=×=×=×=×=×=×=×=×=×=×=×=×=×=\n\n"
-    info+="<b>SYSTEMA OPERATIVO</b>\n"
+    info+="<b>OPERATIONAL SYSTEM</b>\n"
     info+="$system\n\n"
-    info+="<b>PROCESADOR</b>\n"
+    info+="<b>PROCESSOR</b>\n"
     info+="<b>CORES:</b> $cpucores\n"
-    info+="<b>Usado:</b> $uso\n\n"
-    info+="<b>MEMORIA RAM</b>\n"
+    info+="<b>Use:</b> $uso\n\n"
+    info+="<b>RAM MEMORY</b>\n"
     info+="<b>Total:</b> $ram1\n"
-    info+="<b>Usado:</b> $usoram\n\n"
+    info+="<b>Use:</b> $usoram\n\n"
     while read linha; do
         info+="<b>$(echo -e "$linha")</b>\n"
     done < <(cat $PTs)
@@ -820,7 +820,7 @@ fun_download() {
     echo $_file2
     ShellBot.sendDocument --chat_id ${message_from_id[$id]} \
         --document "@/etc/bot/arquivos/$_file" \
-        --caption "$(echo -e "✅ CREADO EXITOSAMENTE ✅\n\n♻️ ☬ Reseller: DansBot ♻️\n\n ⚡️⚡️ CONFIG PASSW Y USER ⚡️⚡\n━━━━▣━━◤INFO◢━━▣━\n=❌NO SPAM\n=❌NO HACKING\n=❌NO CARDING\n=❌NO TORRENT\n=❌NO OVER DOWNLOAD\n=❌NO MULTILOGIN\n=======================\n\n\nᗚ Username • ๛ <code>$(awk -F " " '/Nome/ {print $2}' $_file2)</code>\nᗚ Password • ๛ <code>$(awk -F " " '/Senha/ {print $2}' $_file2)</code>\nᗚ Limite • $(awk -F " " '/Limite/ {print $2}' $_file2)\nᗚ Expira • $(awk -F " " '/Validade/ {print $2}' $_file2)\n\n࿂ SSH •  22\n࿂ SSL •  443\n࿂ Squid  •  8080\n࿂ Dropbear •  80\n[-] ═───────◇───────═\n࿂ Badvpn •  7300\n [-] ═───────◇───────═\n›☬[•] SCRIPTS ═◇ ⚡️⚡️ BY DANSDBOT ⚡️⚡ ◇═ [•]☬")"
+        --caption "$(echo -e "✅ SUCCESSFULLY CREATED ✅\n\n♻️ DATAKINGDOM PAID PRIVATE SSH ♻️\n\n ⚡️⚡️ CONFIG BY DATAKINGDOM TEAM ⚡️⚡\n======================\n=❌NO SPAM\n=❌NO DDOS\n=+❌NO HACKING\n=❌NO CARDING\n=❌NO TORRENT\n=❌NO OVER DOWNLOAD\n=❌NO MULTILOGIN\n=======================\n\n\nᗚ Username • ๛ <code>$(awk -F " " '/Nome/ {print $2}' $_file2)</code>\nᗚ Password • ๛ <code>$(awk -F " " '/Senha/ {print $2}' $_file2)</code>\nᗚ Limit • $(awk -F " " '/Limite/ {print $2}' $_file2)\nᗚ Expire • $(awk -F " " '/Validade/ {print $2}' $_file2)\n\n࿂ SSH •  22\n࿂ SSL •  443\n࿂ Squid  •  8080\n࿂ Dropbear •  80\n[-] ═───────◇───────═\n࿂ Badvpn •  7300\n [-] ═───────◇───────═\n›☬[•] SCRIPTS ═◇ ⚡️⚡️ BY DATAKINGDOM ⚡️⚡ ◇═ [•]☬")"
 	--parse_mode html
     [[ -e "/root/$(awk -F " " '/Nome/ {print $2}' $_file2).ovpn" ]] && {
         ShellBot.sendDocument --chat_id ${message_from_id[$id]} \
@@ -872,7 +872,7 @@ speed_test() {
     }
     rm -rf $HOME/speed >/dev/null 2>&1
     ShellBot.answerCallbackQuery --callback_query_id ${callback_query_id[$id]} \
-        --text "🚀 TESTEAR SERVER SPEED 🚀"
+        --text "🚀 TESTING SERVER SPEED 🚀"
     speedtest --share >speed
     png=$(cat speed | sed -n '5 p' | awk -F : {'print $NF'})
     down=$(cat speed | sed -n '7 p' | awk -F : {'print $NF'})
@@ -997,12 +997,12 @@ fun_teste() {
         for arqv in $(ls /etc/bot/arquivos); do
             ShellBot.sendDocument --chat_id ${message_from_id[$id]} \
                 --document "@/etc/bot/arquivos/$arqv" \
-                --caption "$(echo -e "✅ CREADO EXITOSAMENTE ✅\n\n♻️ ☬ Reseller: DansBot ♻️\n\n🔥⚡️⚡️ CONFIG BY DANS TEAM ⚡️⚡🔥\n======================\n=❌NO SPAM\n=❌NO HACKING\n=❌NO CARDING\n=❌NO TORRENT\n=❌NO OVER DOWNLOAD\n=❌NO MULTILOGIN\n=======================\n\n\nᗚ Username • ๛ <code>$usuario</code>\nᗚ Password • ๛ <code>1234</code>\n\n⏳ ᗚ Expira • $t_time $hrs")\n࿂ SSH •  22\n࿂ SSL •  443\n࿂ Squid  •  8080\n࿂ Dropbear •  80\n[-] ═───────◇───────═\n࿂ Badvpn •  7300\n [-] ═───────◇───────═\n›☬[•] SCRIPTS ═◇ ⚡️⚡️ BY DATAKINGDOM ⚡️⚡ ◇═ [•]☬" \--parse_mode html
+                --caption "$(echo -e "✅ SUCCESSFULLY CREATED ✅\n\n♻️ DATAKINGDOM PAID PRIVATE SSH ♻️\n\n🔥⚡️⚡️ CONFIG BY DATAKINGDOM TEAM ⚡️⚡🔥\n======================\n=❌NO SPAM\n=❌NO DDOS\n=❌NO HACKING\n=❌NO CARDING\n=❌NO TORRENT\n=❌NO OVER DOWNLOAD\n=❌NO MULTILOGIN\n=======================\n\n\nᗚ Username • ๛ <code>$usuario</code>\nᗚ Password • ๛ <code>1234</code>\n\n⏳ ᗚ Expire • $t_time $hrs")\n࿂ SSH •  22\n࿂ SSL •  443\n࿂ Squid  •  8080\n࿂ Dropbear •  80\n[-] ═───────◇───────═\n࿂ Badvpn •  7300\n [-] ═───────◇───────═\n›☬[•] SCRIPTS ═◇ ⚡️⚡️ BY DATAKINGDOM ⚡️⚡ ◇═ [•]☬" \--parse_mode html
         done
         return 0
     } || {
         ShellBot.sendMessage --chat_id ${message_chat_id[$id]} \
-            --text "$(echo -e "✅ <b>CREADO EXITOSAMENTE</b> ✅\n\n♻️ ☬ Reseller: DansBot ♻️\n\n🔥⚡️⚡️ CONFIG BY DANS TEAM ⚡️⚡🔥\n======================\n=❌NO SPAM\n=❌NO HACKING\n=❌NO CARDING\n=❌NO TORRENT\n=❌NO OVER DOWNLOAD\n=❌NO MULTILOGIN\n=======================\n\n\nᗚ IP • ๛ $(cat /etc/IP)\nᗚ Username • ๛ <code>$usuario</code>\nᗚ Password • ๛ <code>1234</code>\n\n⏳ ᗚ Expira • $t_time $hrs")\n࿂ SSH •  22\n࿂ SSL •  443\n࿂ Squid  •  8080\n࿂ Dropbear •  80\n[-] ═───────◇───────═\n࿂ Badvpn •  7300\n [-] ═───────◇───────═\n›☬[•] SCRIPTS ═◇ ⚡️⚡️ BY DATAKINGDOM ⚡️⚡ ◇═ [•]☬" \
+            --text "$(echo -e "✅ <b>SUCCESSFULLY CREATED</b> ✅\n\n♻️ DATAKINGDOM PAID PRIVATE SSH ♻️\n\n🔥⚡️⚡️ CONFIG BY DATAKINGDOM TEAM ⚡️⚡🔥\n======================\n=❌NO SPAM\n=❌NO DDOS\n=❌NO HACKING\n=❌NO CARDING\n=❌NO TORRENT\n=❌NO OVER DOWNLOAD\n=❌NO MULTILOGIN\n=======================\n\n\nᗚ IP • ๛ $(cat /etc/IP)\nᗚ Username • ๛ <code>$usuario</code>\nᗚ Password • ๛ <code>1234</code>\n\n⏳ ᗚ Expire • $t_time $hrs")\n࿂ SSH •  22\n࿂ SSL •  443\n࿂ Squid  •  8080\n࿂ Dropbear •  80\n[-] ═───────◇───────═\n࿂ Badvpn •  7300\n [-] ═───────◇───────═\n›☬[•] SCRIPTS ═◇ ⚡️⚡️ BY DATAKINGDOM ⚡️⚡ ◇═ [•]☬" \
             --parse_mode html
         return 0
     }
@@ -1099,7 +1099,7 @@ relatorio_rev() {
         msg+="<b>ID:</b> <code>${callback_query_from_id}</code>\n"
         [[ $_cont_revt != '0' ]] && {
             ShellBot.answerCallbackQuery --callback_query_id ${callback_query_id[$id]} \
-                --text "📊CREANDO REPORTE!"
+                --text "📊CREATING REPORT!"
         } || {
             ShellBot.answerCallbackQuery --callback_query_id ${callback_query_id[$id]} \
                 --text "⚠️NO RESELLER FOUND!"
@@ -1286,7 +1286,7 @@ restaure_backup() {
 }
 msg_bem_vindo() {
     local msg
-    msg="✌️හායි බොක්ක😊<b>${message_from_first_name[$id]}</b>\n\n ✅ BIENVENIDO AL BOT✅\n\n"
+    msg="✌️හායි බොක්ක😊<b>${message_from_first_name[$id]}</b>\n\n ✅WELCOME DATAKINGDOM SSH MANASGER BOT✅\n\n"
     msg+="🔐To access the menu\n   click This ➡️[ /menu ]\n\n"
     msg+="⚙️Bot Control Commands\n click This ➡️[ /help ]\n\n"
     ShellBot.sendMessage --chat_id ${message_chat_id[$id]} \
@@ -1545,7 +1545,7 @@ fun_dat_rev() {
     }
     [[ "${callback_query_from_id[$id]}" == "$id_admin" ]] || [[ "$(grep -wc ${callback_query_from_username} $ativos)" != '0' ]] && {
         ShellBot.sendMessage --chat_id ${callback_query_message_chat_id[$id]} \
-            --text "📆 CAMBIAR RESALE FECHA 📆\n\nInform his user [Ex:@Dk_king_offcial]:" \
+            --text "📆 CHANGE RESALE DATE 📆\n\nInform his user [Ex:@Dk_king_offcial]:" \
             --reply_markup "$(ShellBot.ForceReply)"
     } || {
         ShellBot.answerCallbackQuery --callback_query_id ${callback_query_id[$id]} \
@@ -1809,7 +1809,6 @@ ShellBot.regHandleFunction --function fun_menurevenda --callback_data _opcoesrev
 unset keyboard1
 keyboard1="$(ShellBot.InlineKeyboardMarkup -b 'menu1')"
 
-
 # LISTA MENU REVENDEDOR
 unset menu2
 menu2=''
@@ -1849,7 +1848,7 @@ ShellBot.InlineKeyboardButton --button 'menu3' --line 2 --text 'TO REMOVE' --cal
 ShellBot.InlineKeyboardButton --button 'menu3' --line 2 --text 'ONLINE USERS' --callback_data '_monitor3'
 ShellBot.InlineKeyboardButton --button 'menu3' --line 3 --text 'CHANGE LIMIT' --callback_data '_altlimite3'
 ShellBot.InlineKeyboardButton --button 'menu3' --line 3 --text 'USER INFO' --callback_data '_verusers3'
-ShellBot.InlineKeyboardButton --button 'menu3' --line 4 --text 'CAMBIAR PASSWORD' --callback_data '_altsenha3'
+ShellBot.InlineKeyboardButton --button 'menu3' --line 4 --text 'CHANGE PASSWORD' --callback_data '_altsenha3'
 ShellBot.InlineKeyboardButton --button 'menu3' --line 4 --text 'EXPIRED' --callback_data '_expirados3'
 ShellBot.InlineKeyboardButton --button 'menu3' --line 5 --text 'CHANGE DATE' --callback_data '_altdata3'
 ShellBot.InlineKeyboardButton --button 'menu3' --line 5 --text 'HELP' --callback_data '_ajuda3'
@@ -1869,12 +1868,12 @@ keyboard3="$(ShellBot.InlineKeyboardMarkup -b 'menu3')"
 #LISTA MENU OPCOES REVENDA
 unset menu4
 menu4=''
-ShellBot.InlineKeyboardButton --button 'menu4' --line 1 --text 'AÑADIR RESALE' --callback_data '_addrev'
-ShellBot.InlineKeyboardButton --button 'menu4' --line 2 --text 'ELIMINAR' RESALE' --callback_data '_delrev'
-ShellBot.InlineKeyboardButton --button 'menu4' --line 3 --text 'CAMBIAR RESALE LIMIT' --callback_data '_limrev'
-ShellBot.InlineKeyboardButton --button 'menu4' --line 4 --text 'CAMBIAR RESALE DATE' --callback_data '_datrev'
-ShellBot.InlineKeyboardButton --button 'menu4' --line 5 --text 'LISTA RESALE' --callback_data '_listrev'
-ShellBot.InlineKeyboardButton --button 'menu4' --line 6 --text 'SUSPENDER RESALE' --callback_data '_susprevendas'
+ShellBot.InlineKeyboardButton --button 'menu4' --line 1 --text 'ADD RESALE' --callback_data '_addrev'
+ShellBot.InlineKeyboardButton --button 'menu4' --line 2 --text 'REMOVE RESALE' --callback_data '_delrev'
+ShellBot.InlineKeyboardButton --button 'menu4' --line 3 --text 'CHANGE RESALE LIMIT' --callback_data '_limrev'
+ShellBot.InlineKeyboardButton --button 'menu4' --line 4 --text 'CHANGE RESALE DATE' --callback_data '_datrev'
+ShellBot.InlineKeyboardButton --button 'menu4' --line 5 --text 'LIST RESALE' --callback_data '_listrev'
+ShellBot.InlineKeyboardButton --button 'menu4' --line 6 --text 'SUSPEND RESALE' --callback_data '_susprevendas'
 ShellBot.regHandleFunction --function fun_add_revenda --callback_data _addrev
 ShellBot.regHandleFunction --function fun_del_rev --callback_data _delrev
 ShellBot.regHandleFunction --function fun_lim_rev --callback_data _limrev
@@ -2029,7 +2028,7 @@ while :; do
                             --reply_markup "$(ShellBot.ForceReply)"
                     } || {
                         ShellBot.sendMessage --chat_id ${message_from_id[$id]} \
-                            --text "<b>✅ CREADO EXITOSAMENTE ✅\n\n♻️ ☬ Reseller: DansBot ♻️\n\n🔥⚡️⚡️ CONFIG BY DANS TEAM ⚡️⚡️🔥\n======================\n=❌NO SPAM\n=❌NO DDOS\n=❌NO HACKING\n=❌NO CARDING\n=❌NO TORRENT\n=❌NO OVER DOWNLOAD\n=❌NO MULTILOGIN\n=======================\n\n\nᗚ IP • ๛ $(cat /etc/IP)\nᗚ Username • ๛ <code>$(awk -F " " '/Nome/ {print $2}' $CAD_ARQ)</code>\nᗚ Password • ๛ <code>$(awk -F " " '/Senha/ {print $2}' $CAD_ARQ)</code>\nᗚ Limit • $(awk -F " " '/Limite/ {print $2}' $CAD_ARQ)\nᗚ Expire • $(awk -F " " '/Validade/ {print $2}' $CAD_ARQ)\n\n࿂ SSH •  22\n࿂ SSL •  443\n࿂ Squid  •  8080\n࿂ Dropbear •  80\n[-] ═───────◇───────═\n࿂ Badvpn •  7300\n [-] ═───────◇───────═\n›☬[•] SCRIPTS ═◇ ⚡️⚡️ BY DATAKINGDOM ⚡️⚡ ◇═ [•]☬" \
+                            --text "<b>✅ SUCCESSFULLY CREATED ✅</b>\n\n♻️ DATAKINGDOM PAID PRIVATE SSH ♻️\n\n🔥⚡️⚡️ CONFIG BY DATAKINGDOM ⚡️⚡️🔥\n======================\n=❌NO SPAM\n=❌NO DDOS\n=❌NO HACKING\n=❌NO CARDING\n=❌NO TORRENT\n=❌NO OVER DOWNLOAD\n=❌NO MULTILOGIN\n=======================\n\n\nᗚ IP • ๛ $(cat /etc/IP)\nᗚ Username • ๛ <code>$(awk -F " " '/Nome/ {print $2}' $CAD_ARQ)</code>\nᗚ Password • ๛ <code>$(awk -F " " '/Senha/ {print $2}' $CAD_ARQ)</code>\nᗚ Limit • $(awk -F " " '/Limite/ {print $2}' $CAD_ARQ)\nᗚ Expire • $(awk -F " " '/Validade/ {print $2}' $CAD_ARQ)\n\n࿂ SSH •  22\n࿂ SSL •  443\n࿂ Squid  •  8080\n࿂ Dropbear •  80\n[-] ═───────◇───────═\n࿂ Badvpn •  7300\n [-] ═───────◇───────═\n›☬[•] SCRIPTS ═◇ ⚡️⚡️ BY DATAKINGDOM ⚡️⚡ ◇═ [•]☬" \
                             --parse_mode html
                         break
                     }
@@ -2042,7 +2041,7 @@ while :; do
                             --text "$(echo -e "❌ Invalid option ❌\n\n⚠️ Use only letters [EX:mr yash]")" \
                             --parse_mode html
                         ShellBot.sendMessage --chat_id ${message_from_id[$id]} \
-                            --text "<b>✅ CREADO EXITOSAMENTE ✅\n\n♻️ ☬ Reseller: DansBot ♻️\n\n🔥⚡️⚡️ CONFIG BY DANS TEAM ⚡️⚡🔥\n======================\n=❌NO SPAM\n=❌NO DDOS\n=❌NO HACKING\n=❌NO CARDING\n=❌NO TORRENT\n=❌NO OVER DOWNLOAD\n=❌NO MULTILOGIN\n=======================\n\n\nᗚ IP • ๛ $(cat /etc/IP)\nᗚ Username • ๛ <code>$(awk -F " " '/Nome/ {print $2}' $CAD_ARQ)</code>\nᗚ Password • ๛ <code>$(awk -F " " '/Senha/ {print $2}' $CAD_ARQ)</code>\nᗚ Limit • $(awk -F " " '/Limite/ {print $2}' $CAD_ARQ)\nᗚ Expire • $(awk -F " " '/Validade/ {print $2}' $CAD_ARQ)\n\n࿂ SSH •  22\n࿂ SSL •  443\n࿂ Squid  •  8080\n࿂ Dropbear •  80\n[-] ═───────◇───────═\n࿂ Badvpn •  7300\n [-] ═───────◇───────═\n›☬[•] SCRIPTS ═◇⚡️⚡️ BY DATAKINGDOM ⚡️⚡ ◇═ [•]☬" \
+                            --text "<b>✅ SUCCESSFULLY CREATED ✅</b>\n\n♻️ DATAKINGDOM PAID PRIVATE SSH ♻️\n\n🔥⚡️⚡️ CONFIG BY DATAKINGDOM TEAM ⚡️⚡🔥\n======================\n=❌NO SPAM\n=❌NO DDOS\n=❌NO HACKING\n=❌NO CARDING\n=❌NO TORRENT\n=❌NO OVER DOWNLOAD\n=❌NO MULTILOGIN\n=======================\n\n\nᗚ IP • ๛ $(cat /etc/IP)\nᗚ Username • ๛ <code>$(awk -F " " '/Nome/ {print $2}' $CAD_ARQ)</code>\nᗚ Password • ๛ <code>$(awk -F " " '/Senha/ {print $2}' $CAD_ARQ)</code>\nᗚ Limit • $(awk -F " " '/Limite/ {print $2}' $CAD_ARQ)\nᗚ Expire • $(awk -F " " '/Validade/ {print $2}' $CAD_ARQ)\n\n࿂ SSH •  22\n࿂ SSL •  443\n࿂ Squid  •  8080\n࿂ Dropbear •  80\n[-] ═───────◇───────═\n࿂ Badvpn •  7300\n [-] ═───────◇───────═\n›☬[•] SCRIPTS ═◇⚡️⚡️ BY DATAKINGDOM ⚡️⚡ ◇═ [•]☬" \
                             --parse_mode html
                         break
                     }
@@ -2062,7 +2061,7 @@ while :; do
                             --reply_markup "$(ShellBot.ForceReply)"
                     } || {
                         ShellBot.sendMessage --chat_id ${message_from_id[$id]} \
-                            --text "<b>✅ CREADO EXITOSAMENTE ✅\n\n♻️ ☬ Reseller: DansBot ♻️\n\n🔥⚡️⚡️ CONFIG BY DANS TEAM ⚡️⚡🔥\n======================\n=❌NO SPAM\n=❌NO DDOS\n=❌NO HACKING\n=❌NO CARDING\n=❌NO TORRENT\n=❌NO OVER DOWNLOAD\n=❌NO MULTILOGIN\n=======================\n\n\nᗚ IP • ๛ $(cat /etc/IP)\nᗚ Username • ๛ <code>$(awk -F " " '/Nome/ {print $2}' $CAD_ARQ)</code>\nᗚ Password • ๛ <code>$(awk -F " " '/Senha/ {print $2}' $CAD_ARQ)</code>\nᗚ Limit • $(awk -F " " '/Limite/ {print $2}' $CAD_ARQ)\nᗚ Expire • $(awk -F " " '/Validade/ {print $2}' $CAD_ARQ)\n\n࿂ SSH •  22\n࿂ SSL •  443\n࿂ Squid  •  8080\n࿂ Dropbear •  80\n[-] ═───────◇───────═\n࿂ Badvpn •  7300\n [-] ═───────◇───────═\n›☬[•] SCRIPTS ═◇⚡️⚡️ BY DATAKINGDOM ⚡️⚡ ◇═ [•]☬" \
+                            --text "<b>✅ SUCCESSFULLY CREATED ✅</b>\n\n♻️ DATAKINGDOM PAID PRIVATE SSH ♻️\n\n🔥⚡️⚡️ CONFIG BY DATAKINGDOM TEAM ⚡️⚡🔥\n======================\n=❌NO SPAM\n=❌NO DDOS\n=❌NO HACKING\n=❌NO CARDING\n=❌NO TORRENT\n=❌NO OVER DOWNLOAD\n=❌NO MULTILOGIN\n=======================\n\n\nᗚ IP • ๛ $(cat /etc/IP)\nᗚ Username • ๛ <code>$(awk -F " " '/Nome/ {print $2}' $CAD_ARQ)</code>\nᗚ Password • ๛ <code>$(awk -F " " '/Senha/ {print $2}' $CAD_ARQ)</code>\nᗚ Limit • $(awk -F " " '/Limite/ {print $2}' $CAD_ARQ)\nᗚ Expire • $(awk -F " " '/Validade/ {print $2}' $CAD_ARQ)\n\n࿂ SSH •  22\n࿂ SSL •  443\n࿂ Squid  •  8080\n࿂ Dropbear •  80\n[-] ═───────◇───────═\n࿂ Badvpn •  7300\n [-] ═───────◇───────═\n›☬[•] SCRIPTS ═◇⚡️⚡️ BY DATAKINGDOM ⚡️⚡ ◇═ [•]☬" \
                             --parse_mode html
                     }
                     ;;
@@ -2074,7 +2073,7 @@ while :; do
                             --text "$(echo -e "❌ Invalid option ❌ \n\n⚠️ Use only numbers [EX: 1]")" \
                             --parse_mode html
                         ShellBot.sendMessage --chat_id ${message_from_id[$id]} \
-                            --text "<b>✅ CREADO EXITOSAMENTE ✅\n\n♻️ ☬ Reseller: DansBot ♻️\n\n🔥⚡️⚡️ CONFIG BY DANS TEAM⚡️⚡🔥\n======================\n=❌NO SPAM\n=❌NO DDOS\n=❌NO HACKING\n=❌NO CARDING\n=❌NO TORRENT\n=❌NO OVER DOWNLOAD\n=❌NO MULTILOGIN\n=======================\n\n\nᗚ IP • ๛ $(cat /etc/IP)\nᗚ Username • ๛ <code>$(awk -F " " '/Nome/ {print $2}' $CAD_ARQ)</code>\nᗚ Password • ๛ <code>$(awk -F " " '/Senha/ {print $2}' $CAD_ARQ)</code>\nᗚ Limit • $(awk -F " " '/Limite/ {print $2}' $CAD_ARQ)\nᗚ Expire • $(awk -F " " '/Validade/ {print $2}' $CAD_ARQ)\n\n࿂ SSH •  22\n࿂ SSL •  443\n࿂ Squid  •  8080\n࿂ Dropbear •  80\n[-] ═───────◇───────═\n࿂ Badvpn •  7300\n [-] ═───────◇───────═\n›☬[•] SCRIPTS ═◇ ⚡️⚡️ BY DATAKINGDOM ⚡️⚡ ◇═ [•]☬" \
+                            --text "<b>✅ SUCCESSFULLY CREATED ✅</b>\n\n♻️ DATAKINGDOM PAID PRIVATE SSH ♻️\n\n🔥⚡️⚡️ CONFIG BYDATAKINGDOM TEAM⚡️⚡🔥\n======================\n=❌NO SPAM\n=❌NO DDOS\n=❌NO HACKING\n=❌NO CARDING\n=❌NO TORRENT\n=❌NO OVER DOWNLOAD\n=❌NO MULTILOGIN\n=======================\n\n\nᗚ IP • ๛ $(cat /etc/IP)\nᗚ Username • ๛ <code>$(awk -F " " '/Nome/ {print $2}' $CAD_ARQ)</code>\nᗚ Password • ๛ <code>$(awk -F " " '/Senha/ {print $2}' $CAD_ARQ)</code>\nᗚ Limit • $(awk -F " " '/Limite/ {print $2}' $CAD_ARQ)\nᗚ Expire • $(awk -F " " '/Validade/ {print $2}' $CAD_ARQ)\n\n࿂ SSH •  22\n࿂ SSL •  443\n࿂ Squid  •  8080\n࿂ Dropbear •  80\n[-] ═───────◇───────═\n࿂ Badvpn •  7300\n [-] ═───────◇───────═\n›☬[•] SCRIPTS ═◇ ⚡️⚡️ BY DATAKINGDOM ⚡️⚡ ◇═ [•]☬" \
                             --parse_mode html
                         >$CAD_ARQ
                         break
@@ -2090,7 +2089,7 @@ while :; do
                     fun_del_user ${message_text[$id]}
                     [[ "$_erro" == '1' ]] && break
                     ShellBot.sendMessage --chat_id ${message_from_id[$id]} \
-                        --text "✅ * SUCCESSFULLY REMOVED *\n ⚡️⚡️ BY DANSDBOT ⚡️⚡ \n 🚮" \
+                        --text "✅ * SUCCESSFULLY REMOVED *\n ⚡️⚡️ BY DATAKINGDOM ⚡️⚡ \n 🚮" \
                         --parse_mode markdown
                     ;;
                 '🔐 Change Password 🔐\n\nUsername:')
@@ -2239,7 +2238,7 @@ while :; do
                         [[ -e /etc/bot/arquivos/$_file ]] && {
                             rm /etc/bot/arquivos/$_file
                             ShellBot.sendMessage --chat_id ${message_from_id[$id]} \
-                                --text "✅ * ELIMINADO EXITOSAMENTE * ✅" \n ⚡️⚡️ BY DANS ⚡️⚡ \n \
+                                --text "✅ * SUCCESSFULLY DELETED * ✅" \n ⚡️⚡️ BY DATAKINGDOM ⚡️⚡ \n \
                                 --parse_mode markdown
                             break
                         } || {
@@ -2366,7 +2365,7 @@ while :; do
                     _clientrev=$(cat $CAD_ARQ)
                     criar_rev $CAD_ARQ
                     ShellBot.sendMessage --chat_id ${message_from_id[$id]} \
-                        --text "✅ CREADO EXITOSAMENTE ✅\n ⚡️⚡️ BY DANSDBOT ⚡️⚡ \n\n$(<$CAD_ARQ)\n\nBOT: @${message_reply_to_message_from_username}" \
+                        --text "✅ SUCCESSFULLY CREATED ✅\n ⚡️⚡️ BY DATAKINGDOM ⚡️⚡ \n\n$(<$CAD_ARQ)\n\nBOT: @${message_reply_to_message_from_username}" \
                         --parse_mode html
                     ;;
                     # REMOVE REVENDEDOR

@@ -21,14 +21,14 @@ ShellBot.username
 fun_menu() {
     [[ "${message_from_id[$id]}" == "$id_admin" ]] && {
         local env_msg
-	env_msg="━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n"
-        env_msg+="=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=\n"
-        env_msg+="<b>---------- ♻️ SSH MANAGER ♻️----------</b>\n"
-        env_msg+="<b>  🔥⚡️⚡️ Darinel ⚡️⚡🔥  </b>\n"
-        env_msg+="=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=\n"
-        env_msg+="<b>💎Telegram-Whatsapp-@/+94768100942💎 </b>\n"
-        env_msg+="━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n"
-        env_msg+="➡️ <i>🟥⬜️⚙️🛠 DATAKINGDOM SSH MANAGER BOT MENU ⚙️🛠🟥⬜️</i>\n\n"
+	env_msg="━━━━━━━━━━━━━━━━━━━━━━\n"
+        env_msg+="┌────────═━┈┈━═───────┐\n"
+        env_msg+="<b>════ ⋆SSH MANAGER⋆ ════</b>\n"
+        env_msg+="<b>•—————◤Darinel◥—————•</b>\n"
+        env_msg+="└────────═━┈┈━═───────┘\n"
+        env_msg+="<b>╰┈┈➤ ❝ [🇲🇽 BIENVENIDO 🇲🇽]</b>\n"
+        env_msg+="━━━━━━━━━━━━━━━━━━━━━━\n"
+        env_msg+="➡️ <i>🟥⬜️⚙️🛠 SSH MANAGER BOT MENU ⚙️🛠🟥⬜️</i>\n\n"
         ShellBot.sendMessage --chat_id ${message_chat_id[$id]} --text "$env_msg" \
             --reply_markup "$keyboard1" \
             --parse_mode html
@@ -1771,7 +1771,7 @@ fun_menurevenda() {
 unset menu1
 menu1=''
 ShellBot.InlineKeyboardButton --button 'menu1' --line 1 --text 'CREAR USER' --callback_data '_criaruser'
-ShellBot.InlineKeyboardButton --button 'menu1' --line 2 --text 'CREATE TEST' --callback_data '_criarteste'
+ShellBot.InlineKeyboardButton --button 'menu1' --line 2 --text 'CREAR TEST' --callback_data '_criarteste'
 ShellBot.InlineKeyboardButton --button 'menu1' --line 3 --text 'REMOVER' --callback_data '_deluser'
 ShellBot.InlineKeyboardButton --button 'menu1' --line 4 --text 'CHANGE PASSWORD' --callback_data '_altsenha'
 ShellBot.InlineKeyboardButton --button 'menu1' --line 5 --text 'CHANGE LIMIT' --callback_data '_altlimite'

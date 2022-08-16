@@ -1812,8 +1812,8 @@ keyboard1="$(ShellBot.InlineKeyboardMarkup -b 'menu1')"
 # LISTA MENU REVENDEDOR
 unset menu2
 menu2=''
-ShellBot.InlineKeyboardButton --button 'menu2' --line 1 --text 'CREATE USER' --callback_data '_criaruser2'
-ShellBot.InlineKeyboardButton --button 'menu2' --line 1 --text 'CREATE TEST' --callback_data '_criarteste2'
+ShellBot.InlineKeyboardButton --button 'menu2' --line 1 --text 'CREAR USER' --callback_data '_criaruser2'
+ShellBot.InlineKeyboardButton --button 'menu2' --line 1 --text 'CREAR TEST' --callback_data '_criarteste2'
 ShellBot.InlineKeyboardButton --button 'menu2' --line 2 --text 'TO REMOVE' --callback_data '_deluser2'
 ShellBot.InlineKeyboardButton --button 'menu2' --line 2 --text 'ONLINE USERS' --callback_data '_monitor2'
 ShellBot.InlineKeyboardButton --button 'menu2' --line 3 --text 'CHANGE LIMIT' --callback_data '_altlimite2'
@@ -2028,7 +2028,7 @@ while :; do
                             --reply_markup "$(ShellBot.ForceReply)"
                     } || {
                         ShellBot.sendMessage --chat_id ${message_from_id[$id]} \
-                            --text "<b>🔰 CREADO EXITOSAMENTE 🇲🇽</b>\n\n♻️ SSH GENERADA ♻️\n\n🔥⚡️⚡️ ☬ Reseller: DansBot ⚡️⚡️🔥\n======================\n=❌NO SPAM\n=❌NO TORRENT\n=❌NO OVER DOWNLOAD\n=❌NO MULTILOGIN\n=======================\n\n➽ Datos de conexión\n╰┈➤Clouflare • demo.darinel.ml \n╰┈➤ IP • ๛ $(cat /etc/IP)\n╰┈➤ Username • ๛ <code>$(awk -F " " '/Nome/ {print $2}' $CAD_ARQ)</code>\n╰┈➤ Password • ๛ <code>$(awk -F " " '/Senha/ {print $2}' $CAD_ARQ)</code>\n╰┈➤ Limite • $(awk -F " " '/Limite/ {print $2}' $CAD_ARQ)\n╰┈➤ Expira • $(awk -F " " '/Validade/ {print $2}' $CAD_ARQ)\n\n➽ Puertos abiertos \n╰┈➤ SSH •  22\n╰┈➤ SSL •  443\n╰┈➤ Squid  •  8080\n╰┈➤ Dropbear •  80\n┌─────═━┈━═─────┐\n◙ Badvpn •  7300\n└─────═━┈━═─────┘\n›☬[Telcel] Dans ═◇◄••◩••►◇═ [•]☬" \
+                            --text "<b>🔰 CREADO EXITOSAMENTE 🇲🇽</b>\n\n♻️ SSH GENERADA ♻️\n\n➠ ☬ Reseller: DansBot ⌲⌲⌲\n======================\n=❌NO TORRENT\n=❌NO OVER DOWNLOAD\n=❌NO MULTILOGIN\n=======================\n\n➽ Datos de conexión\n╰┈➤Clouflare • demo.darinel.ml \n╰┈➤ IP • ๛ $(cat /etc/IP)\n╰┈➤ Username • ๛ <code>$(awk -F " " '/Nome/ {print $2}' $CAD_ARQ)</code>\n╰┈➤ Password • ๛ <code>$(awk -F " " '/Senha/ {print $2}' $CAD_ARQ)</code>\n╰┈➤ Limite • $(awk -F " " '/Limite/ {print $2}' $CAD_ARQ)\n╰┈➤ Expira • $(awk -F " " '/Validade/ {print $2}' $CAD_ARQ)\n\n➽ Puertos abiertos \n╰┈➤ SSH •  22\n╰┈➤ SSL •  443\n╰┈➤ Squid  •  8080\n╰┈➤ Dropbear •  80\n┌─────═━┈━═─────┐\n◙ Badvpn •  7300\n└─────═━┈━═─────┘\n›☬[Telcel] Dans ═◇◄••◩••►◇═ [•]☬" \
                             --parse_mode html
                         break
                     }
@@ -2041,7 +2041,7 @@ while :; do
                             --text "$(echo -e "❌ Invalid option ❌\n\n⚠️ Use only letters [EX:mr yash]")" \
                             --parse_mode html
                         ShellBot.sendMessage --chat_id ${message_from_id[$id]} \
-                            --text "<b>🇲🇽 CREADO EXITOSAMENTE 🇲🇽</b>\n\n♻️ SSH GENERADA ♻️\n\n🔥⚡️⚡️ ☬ Reseller: DansBot ⚡️⚡🔥\n======================\n=❌NO SPAM\n=❌NO TORRENT\n=❌NO OVER DOWNLOAD\n=❌NO MULTILOGIN\n=======================\n\n\nᗚ IP • ๛ $(cat /etc/IP)\nᗚ Username • ๛ <code>$(awk -F " " '/Nome/ {print $2}' $CAD_ARQ)</code>\nᗚ Password • ๛ <code>$(awk -F " " '/Senha/ {print $2}' $CAD_ARQ)</code>\nᗚ Limite • $(awk -F " " '/Limite/ {print $2}' $CAD_ARQ)\nᗚ Expira • $(awk -F " " '/Validade/ {print $2}' $CAD_ARQ)\n\n࿂ SSH •  22\n࿂ SSL •  443\n࿂ Squid  •  8080\n࿂ Dropbear •  80\n[-] ═───────◇───────═\n࿂ Badvpn •  7300\n [-] ═───────◇───────═\n›☬[•] SCRIPTS ═◇◄••◩••►◇═ [•]☬" \
+                            --text "<b>🇲🇽 CREADO EXITOSAMENTE 🇲🇽</b>\n\n♻️ SSH GENERADA ♻️\n\n➠ ☬ Reseller: DansBot ⚡️⚡🔥\n======================\n=❌NO TORRENT\n=❌NO OVER DOWNLOAD\n=❌NO MULTILOGIN\n=======================\n\n\nᗚ IP • ๛ $(cat /etc/IP)\nᗚ Username • ๛ <code>$(awk -F " " '/Nome/ {print $2}' $CAD_ARQ)</code>\nᗚ Password • ๛ <code>$(awk -F " " '/Senha/ {print $2}' $CAD_ARQ)</code>\nᗚ Limite • $(awk -F " " '/Limite/ {print $2}' $CAD_ARQ)\nᗚ Expira • $(awk -F " " '/Validade/ {print $2}' $CAD_ARQ)\n\n࿂ SSH •  22\n࿂ SSL •  443\n࿂ Squid  •  8080\n࿂ Dropbear •  80\n[-] ═───────◇───────═\n࿂ Badvpn •  7300\n [-] ═───────◇───────═\n›☬[•] SCRIPTS ═◇◄••◩••►◇═ [•]☬" \
                             --parse_mode html
                         break
                     }
